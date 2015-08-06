@@ -56,6 +56,11 @@
 @property (assign, nonatomic) BOOL doCollections;
 
 
+// for capture key-value mapping
+-(void) setMappingKeyName:(NSString*)keyName valueName:(NSString*)valueName;
+-(void) clearMappingKeyValueNames;
+
+
 // namespaces
 -(void) registerNameSpace:(NSString*)nsPrefix uri:(NSString*)uri;
 -(void) unRegisterNameSpace:(NSString*)nsPrefix;
@@ -74,10 +79,6 @@
 -(id) parseXml:(NSData*)xmlData nodeName:(NSString*)nodeName;
 -(id) parseXml:(NSData*)xmlData;
 
-
-// for capture key-value mapping
--(void) setMappingKeyName:(NSString*)keyName valueName:(NSString*)valueName;
--(void) clearMappingKeyValueNames;
 
 
 
