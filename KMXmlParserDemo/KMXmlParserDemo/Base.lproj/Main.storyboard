@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vUV-cq-v3C">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="x5u-uR-8zt">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vUV-cq-v3C" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="nfi-Dy-eXP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="NhP-fe-ryi" kind="relationship" relationship="rootViewController" id="elc-7P-GSQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jxN-Bq-IPd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="88.5" y="438"/>
+        </scene>
+        <!--XML Files-->
+        <scene sceneID="NN4-Uv-GX5">
+            <objects>
+                <viewController storyboardIdentifier="XmlFilesController" automaticallyAdjustsScrollViewInsets="NO" id="NhP-fe-ryi" customClass="XmlFilesController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Wpo-cS-SGp"/>
+                        <viewControllerLayoutGuide type="bottom" id="wkt-0s-6xQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Fib-ha-ANn">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="8Ey-Qb-wuW">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="NhP-fe-ryi" id="fMk-WF-1ef"/>
+                                    <outlet property="delegate" destination="NhP-fe-ryi" id="UDc-fw-qnm"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="8Ey-Qb-wuW" secondAttribute="trailing" constant="21" id="GHk-BF-Ol6">
+                                <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
+                            </constraint>
+                            <constraint firstItem="8Ey-Qb-wuW" firstAttribute="top" secondItem="Wpo-cS-SGp" secondAttribute="bottom" constant="28" id="H3L-BS-0fz">
+                                <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
+                            </constraint>
+                            <constraint firstItem="wkt-0s-6xQ" firstAttribute="top" secondItem="8Ey-Qb-wuW" secondAttribute="bottom" constant="71" id="cR4-ja-XAt">
+                                <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
+                            </constraint>
+                            <constraint firstItem="8Ey-Qb-wuW" firstAttribute="leading" secondItem="Fib-ha-ANn" secondAttribute="leading" constant="22" id="d87-92-7dA">
+                                <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
+                            </constraint>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="8Ey-Qb-wuW"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="cR4-ja-XAt"/>
+                                <exclude reference="GHk-BF-Ol6"/>
+                                <exclude reference="H3L-BS-0fz"/>
+                                <exclude reference="d87-92-7dA"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="8Ey-Qb-wuW"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="cR4-ja-XAt"/>
+                                <include reference="GHk-BF-Ol6"/>
+                                <include reference="H3L-BS-0fz"/>
+                                <include reference="d87-92-7dA"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="XML Files" id="eaf-ei-WxI"/>
+                    <connections>
+                        <outlet property="tableviewXmlFiles" destination="8Ey-Qb-wuW" id="0Lu-cM-vXb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uWX-4L-rWm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="837" y="438"/>
+        </scene>
+        <!--Result of parsing-->
+        <scene sceneID="evW-Ad-iqN">
+            <objects>
+                <viewController storyboardIdentifier="XmlParsedController" title="Result of parsing" automaticallyAdjustsScrollViewInsets="NO" id="aUg-aN-MmS" customClass="XmlParsedController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="c6x-ET-UKa"/>
+                        <viewControllerLayoutGuide type="bottom" id="DXM-c6-Gzz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qgg-sQ-ZNk">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Result of parsing" translatesAutoresizingMaskIntoConstraints="NO" id="V1b-7j-wG8">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="11"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="0.0" y="64" width="400" height="736"/>
+                                </variation>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="DXM-c6-Gzz" firstAttribute="top" secondItem="V1b-7j-wG8" secondAttribute="bottom" constant="68" id="0lr-8b-fUT">
+                                <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
+                            </constraint>
+                            <constraint firstItem="V1b-7j-wG8" firstAttribute="top" secondItem="c6x-ET-UKa" secondAttribute="bottom" constant="22" id="KWf-xN-fN8">
+                                <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
+                            </constraint>
+                            <constraint firstAttribute="trailing" secondItem="V1b-7j-wG8" secondAttribute="trailing" constant="48" id="d8n-LA-EEU">
+                                <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
+                            </constraint>
+                            <constraint firstItem="V1b-7j-wG8" firstAttribute="leading" secondItem="qgg-sQ-ZNk" secondAttribute="leading" constant="38" id="imT-Qp-fgq">
+                                <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
+                            </constraint>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="V1b-7j-wG8"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="0lr-8b-fUT"/>
+                                <exclude reference="KWf-xN-fN8"/>
+                                <exclude reference="d8n-LA-EEU"/>
+                                <exclude reference="imT-Qp-fgq"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="V1b-7j-wG8"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="0lr-8b-fUT"/>
+                                <include reference="KWf-xN-fN8"/>
+                                <include reference="d8n-LA-EEU"/>
+                                <include reference="imT-Qp-fgq"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="textviewParsed" destination="V1b-7j-wG8" id="nqz-Jv-KTj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ILH-QA-Etq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1618.5" y="438"/>
+        </scene>
+    </scenes>
+</document>

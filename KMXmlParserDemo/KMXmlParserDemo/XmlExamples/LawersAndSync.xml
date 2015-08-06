@@ -1,0 +1,1038 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="urn:AccountWebServicewsdl" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+	<SOAP-ENV:Body>
+		<ns1:getLawyersAndSyncResponse>
+			<return SOAP-ENC:arrayType="ns1:IsLawyerUpToDateResponse[20]" xsi:type="ns1:IsLawyerUpToDateResponseArray">
+                <item xsi:type="ns2:Map">
+                    <item>
+                        <key xsi:type="xsd:string">badgeCount</key>
+                        <value xsi:type="xsd:int">0</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">lastUpdate</key>
+                        <value xsi:type="xsd:string">1399369732</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">lawyerId</key>
+                        <value xsi:type="xsd:int">11356</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">questionId</key>
+                        <value xsi:type="xsd:string">95</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">conversationId</key>
+                        <value xsi:type="xsd:string">66</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">roomJID</key>
+                        <value xsi:type="xsd:string">Hello13993697324679@question.188.226.220.252</value>
+                    </item>
+                    <item>
+                        <key xsi:type="xsd:string">ownerId</key>
+                        <value xsi:type="xsd:string">11412</value>
+                    </item>
+                </item>
+				<item xsi:type="ns1:IsLawyerUpToDateResponse">
+					<lawyerId xsi:type="xsd:int">25</lawyerId>
+					<upToDate xsi:type="xsd:boolean">false</upToDate>
+					<lawyer xsi:type="ns1:Lawyer">
+						<officeCountry xsi:nil="true"/>
+						<officeCity xsi:nil="true"/>
+						<officePlace xsi:nil="true"/>
+						<officeBuilding xsi:nil="true"/>
+						<price xsi:type="xsd:float">0</price>
+						<currency id="ref1" xsi:type="ns1:Currency">
+							<currencyId xsi:type="xsd:int">1</currencyId>
+							<iso xsi:type="xsd:string">USD</iso>
+							<sign xsi:nil="true"/>
+						</currency>
+						<educations SOAP-ENC:arrayType="ns1:Education[1]" xsi:type="ns1:EducationArray">
+							<item xsi:type="ns1:Education">
+								<educationId xsi:type="xsd:int">25</educationId>
+								<endingDate xsi:type="xsd:int">2005</endingDate>
+								<details xsi:type="xsd:string">Belarusian State University</details>
+								<clientEducationId xsi:nil="true"/>
+							</item>
+						</educations>
+						<practice xsi:nil="true"/>
+						<experiences xsi:nil="true" xsi:type="ns1:ExperienceArray"/>
+						<locations xsi:nil="true" xsi:type="ns1:LocationArray"/>
+						<rating xsi:nil="true"/>
+						<ratingCustomers xsi:nil="true"/>
+						<personId xsi:type="xsd:int">25</personId>
+						<firstname xsi:type="xsd:string">Vladimir</firstname>
+						<lastname xsi:type="xsd:string">Gl.</lastname>
+						<surname xsi:type="xsd:string"/>
+						<dob xsi:type="xsd:int">0</dob>
+						<pic xsi:type="xsd:string">http://5.15.15.15/~legalcom/sandbox_legalcom_org/frontend/uploads/__anonym__.jpg</pic>
+						<gender xsi:nil="true"/>
+						<site xsi:nil="true"/>
+						<countries SOAP-ENC:arrayType="ns1:Country[1]" xsi:type="ns1:CountryArray">
+							<item xsi:type="ns1:Country">
+								<countryId xsi:type="xsd:int">112</countryId>
+								<countryName xsi:type="xsd:string">Belarus</countryName>
+								<alpha2 xsi:nil="true"/>
+								<priority xsi:type="xsd:int">0</priority>
+							</item>
+						</countries>
+						<languages SOAP-ENC:arrayType="ns1:Language[1]" xsi:type="ns1:LanguageArray">
+                            <item xsi:type="ns1:Language">
+                                <languageId xsi:type="xsd:int">101</languageId>
+                                <languageName xsi:type="xsd:string">Russian</languageName>
+                                <languageIso xsi:type="xsd:string">ru</languageIso>
+                            </item>
+						</languages>
+						<city xsi:nil="true"/>
+						<about xsi:nil="true"/>
+						<title xsi:nil="true"/>
+						<lastUpdate xsi:type="xsd:string">2012-08-06 08:18:52</lastUpdate>
+					</lawyer>
+				</item>
+				<item xsi:type="ns1:IsLawyerUpToDateResponse">
+					<lawyerId xsi:type="xsd:int">24</lawyerId>
+					<upToDate xsi:type="xsd:boolean">false</upToDate>
+					<lawyer xsi:type="ns1:Lawyer">
+						<officeCountry xsi:nil="true"/>
+						<officeCity xsi:nil="true"/>
+						<officePlace xsi:nil="true"/>
+						<officeBuilding xsi:nil="true"/>
+						<price xsi:type="xsd:float">0</price>
+						<currency href="#ref1"/>
+						<educations SOAP-ENC:arrayType="ns1:Education[1]" xsi:type="ns1:EducationArray">
+							<item xsi:type="ns1:Education">
+								<educationId xsi:type="xsd:int">24</educationId>
+								<endingDate xsi:type="xsd:int">1995</endingDate>
+								<details xsi:type="xsd:string">Hebrew University of Jerusalem</details>
+								<clientEducationId xsi:nil="true"/>
+							</item>
+						</educations>
+						<practice xsi:nil="true"/>
+						<experiences xsi:nil="true" xsi:type="ns1:ExperienceArray"/>
+						<locations xsi:nil="true" xsi:type="ns1:LocationArray"/>
+						<rating xsi:nil="true"/>
+						<ratingCustomers xsi:nil="true"/>
+						<personId xsi:type="xsd:int">24</personId>
+						<firstname xsi:type="xsd:string">Eli</firstname>
+						<lastname xsi:type="xsd:string">Herv.</lastname>
+						<surname xsi:type="xsd:string"/>
+						<dob xsi:type="xsd:int">1973</dob>
+						<pic xsi:type="xsd:string">http://5.15.15.15/~legalcom/sandbox_legalcom_org/frontend/uploads/__anonym__.jpg</pic>
+						<gender xsi:nil="true"/>
+						<site xsi:nil="true"/>
+						<countries SOAP-ENC:arrayType="ns1:Country[1]" xsi:type="ns1:CountryArray">
+							<item xsi:type="ns1:Country">
+								<countryId xsi:type="xsd:int">376</countryId>
+								<countryName xsi:type="xsd:string">Israel</countryName>
+								<alpha2 xsi:nil="true"/>
+								<priority xsi:type="xsd:int">0</priority>
+							</item>
+						</countries>
+						<languages SOAP-ENC:arrayType="ns1:Language[1]" xsi:type="ns1:LanguageArray">
+                            <item xsi:type="ns1:Language">
+                                <languageId xsi:type="xsd:int">107</languageId>
+                                <languageName xsi:type="xsd:string">English</languageName>
+                                <languageIso xsi:type="xsd:string">en</languageIso>
+                            </item>
+							<item xsi:type="ns1:Language">
+                                <languageId xsi:type="xsd:int">101</languageId>
+                                <languageName xsi:type="xsd:string">Russian</languageName>
+                                <languageIso xsi:type="xsd:string">ru</languageIso>
+							</item>
+						</languages>
+						<city xsi:nil="true"/>
+						<about xsi:nil="true"/>
+						<title xsi:nil="true"/>
+						<lastUpdate xsi:type="xsd:string">2012-08-06 08:18:52</lastUpdate>
+					</lawyer>
+				</item>
+				<item xsi:type="ns1:IsLawyerUpToDateResponse">
+					<lawyerId xsi:type="xsd:int">23</lawyerId>
+					<upToDate xsi:type="xsd:boolean">false</upToDate>
+					<lawyer xsi:type="ns1:Lawyer">
+						<officeCountry xsi:nil="true"/>
+						<officeCity xsi:nil="true"/>
+						<officePlace xsi:nil="true"/>
+						<officeBuilding xsi:nil="true"/>
+						<price xsi:type="xsd:float">0</price>
+						<currency href="#ref1"/>
+						<educations SOAP-ENC:arrayType="ns1:Education[1]" xsi:type="ns1:EducationArray">
+							<item xsi:type="ns1:Education">
+								<educationId xsi:type="xsd:int">23</educationId>
+								<endingDate xsi:type="xsd:int">1980</endingDate>
+								<details xsi:type="xsd:string">Ivan Franko National University of Lviv</details>
+								<clientEducationId xsi:nil="true"/>
+							</item>
+						</educations>
+						<practice xsi:nil="true"/>
+						<experiences xsi:nil="true" xsi:type="ns1:ExperienceArray"/>
+						<locations xsi:nil="true" xsi:type="ns1:LocationArray"/>
+						<rating xsi:nil="true"/>
+						<ratingCustomers xsi:nil="true"/>
+						<personId xsi:type="xsd:int">23</personId>
+						<firstname xsi:type="xsd:string">Hanna</firstname>
+						<lastname xsi:type="xsd:string">Stephankiv</lastname>
+						<surname xsi:type="xsd:string">Grig.</surname>
+						<dob xsi:type="xsd:int">0</dob>
+						<pic xsi:type="xsd:string">http://5.15.15.15/~legalcom/sandbox_legalcom_org/frontend/uploads/__anonym__.jpg</pic>
+						<gender xsi:nil="true"/>
+						<site xsi:nil="true"/>
+						<countries SOAP-ENC:arrayType="ns1:Country[1]" xsi:type="ns1:CountryArray">
+							<item id="ref2" xsi:type="ns1:Country">
+								<countryId xsi:type="xsd:int">804</countryId>
+								<countryName xsi:type="xsd:string">Ukraine</countryName>
+								<alpha2 xsi:nil="true"/>
+								<priority xsi:type="xsd:int">0</priority>
+							</item>
+						</countries>
+						<languages SOAP-ENC:arrayType="ns1:Language[1]" xsi:type="ns1:LanguageArray">
+                            <item xsi:type="ns1:Language">
+                                <languageId xsi:type="xsd:int">107</languageId>
+                                <languageName xsi:type="xsd:string">English</languageName>
+                                <languageIso xsi:type="xsd:string">en</languageIso>
+                            </item>
+							<item xsi:type="ns1:Language">
+								<languageId xsi:type="xsd:int">103</languageId>
+								<languageName xsi:type="xsd:string">Ukrainian</languageName>
+								<languageIso xsi:type="xsd:string">uk</languageIso>
+							</item>
+						</languages>
+						<city xsi:nil="true"/>
+						<about xsi:nil="true"/>
+						<title xsi:nil="true"/>
+						<lastUpdate xsi:type="xsd:string">2012-08-06 08:18:52</lastUpdate>
+					</lawyer>
+				</item>
+				<item xsi:type="ns1:IsLawyerUpToDateResponse">
+					<lawyerId xsi:type="xsd:int">22</lawyerId>
+					<upToDate xsi:type="xsd:boolean">false</upToDate>
+					<lawyer xsi:type="ns1:Lawyer">
+						<officeCountry xsi:nil="true"/>
+						<officeCity xsi:nil="true"/>
+						<officePlace xsi:nil="true"/>
+						<officeBuilding xsi:nil="true"/>
+						<price xsi:type="xsd:float">0</price>
+						<currency href="#ref1"/>
+						<educations SOAP-ENC:arrayType="ns1:Education[1]" xsi:type="ns1:EducationArray">
+							<item xsi:type="ns1:Education">
+								<educationId xsi:type="xsd:int">22</educationId>
+								<endingDate xsi:type="xsd:int">1998</endingDate>
+								<details xsi:type="xsd:string">Saint Petersburg State University</details>
+								<clientEducationId xsi:nil="true"/>
+							</item>
+						</educations>
+						<practice xsi:nil="true"/>
+						<experiences xsi:nil="true" xsi:type="ns1:ExperienceArray"/>
+						<locations xsi:nil="true" xsi:type="ns1:LocationArray"/>
+						<rating xsi:nil="true"/>
+						<ratingCustomers xsi:nil="true"/>
+						<personId xsi:type="xsd:int">22</personId>
+						<firstname xsi:type="xsd:string">Andrey</firstname>
+						<lastname xsi:type="xsd:string">Granchev</lastname>
+						<surname xsi:type="xsd:string">Petrovich</surname>
+						<dob xsi:type="xsd:int">0</dob>
+						<pic xsi:type="xsd:string">http://5.15.15.15/~legalcom/sandbox_legalcom_org/frontend/uploads/__anonym__.jpg</pic>
+						<gender xsi:nil="true"/>
+						<site xsi:nil="true"/>
+						<countries SOAP-ENC:arrayType="ns1:Country[1]" xsi:type="ns1:CountryArray">
+							<item id="ref3" xsi:type="ns1:Country">
+								<countryId xsi:type="xsd:int">643</countryId>
+								<countryName xsi:type="xsd:string">Russian Federation</countryName>
+								<alpha2 xsi:nil="true"/>
+								<priority xsi:type="xsd:int">0</priority>
+							</item>
+						</countries>
+						<languages SOAP-ENC:arrayType="ns1:Language[1]" xsi:type="ns1:LanguageArray">
+							<item xsi:type="ns1:Language">
+                                <languageId xsi:type="xsd:int">101</languageId>
+                                <languageName xsi:type="xsd:string">Russian</languageName>
+                                <languageIso xsi:type="xsd:string">ru</languageIso>
+							</item>
+						</languages>
+						<city xsi:nil="true"/>
+						<about xsi:nil="true"/>
+						<title xsi:nil="true"/>
+						<lastUpdate xsi:type="xsd:string">2012-08-06 08:18:51</lastUpdate>
+					</lawyer>
+				</item>
+				<item xsi:type="ns1:IsLawyerUpToDateResponse">
+					<lawyerId xsi:type="xsd:int">21</lawyerId>
+					<upToDate xsi:type="xsd:boolean">false</upToDate>
+					<lawyer xsi:type="ns1:Lawyer">
+						<officeCountry xsi:nil="true"/>
+						<officeCity xsi:nil="true"/>
+						<officePlace xsi:nil="true"/>
+						<officeBuilding xsi:nil="true"/>
+						<price xsi:type="xsd:float">0</price>
+						<currency href="#ref1"/>
+						<educations SOAP-ENC:arrayType="ns1:Education[1]" xsi:type="ns1:EducationArray">
+							<item xsi:type="ns1:Education">
+                                <educationId xsi:type="xsd:int">21</educationId>
+                                <endingDate xsi:type="xsd:int">1993</endingDate>
+                                <details xsi:type="xsd:string">Taras Shevchenko National University of Kyiv</details>
+                                <clientEducationId xsi:nil="true"/>
+							</item>
+						</educations>
+						<practice xsi:nil="true"/>
+						<experiences xsi:nil="true" xsi:type="ns1:ExperienceArray"/>
+						<locations xsi:nil="true" xsi:type="ns1:LocationArray"/>
+						<rating xsi:nil="true"/>
+						<ratingCustomers xsi:nil="true"/>
+						<personId xsi:type="xsd:int">21</personId>
+						<firstname xsi:type="xsd:string">Vladislav</firstname>
+						<lastname xsi:type="xsd:string">Gan.</lastname>
+						<surname xsi:type="xsd:string"/>
+						<dob xsi:type="xsd:int">0</dob>
+						<pic xsi:type="xsd:string">http://5.15.15.15/~legalcom/sandbox_legalcom_org/frontend/uploads/__anonym__.jpg</pic>
+						<gender xsi:nil="true"/>
+						<site xsi:nil="true"/>
+						<countries SOAP-ENC:arrayType="ns1:Country[1]" xsi:type="ns1:CountryArray">
+							<item href="#ref2"/>
+						</countries>
+						<languages SOAP-ENC:arrayType="ns1:Language[1]" xsi:type="ns1:LanguageArray">
+							<item xsi:type="ns1:Language">
+								<languageId xsi:type="xsd:int">103</languageId>
+								<languageName xsi:type="xsd:string">Ukrainian</languageName>
+								<languageIso xsi:type="xsd:string">uk</languageIso>
+							</item>
+						</languages>
+						<city xsi:nil="true"/>
+						<about xsi:nil="true"/>
+						<title xsi:nil="true"/>
+						<lastUpdate xsi:type="xsd:string">2012-08-06 08:18:51</lastUpdate>
+					</lawyer>
+				</item>
+				<item xsi:type="ns1:IsLawyerUpToDateResponse">
+					<lawyerId xsi:type="xsd:int">20</lawyerId>
+					<upToDate xsi:type="xsd:boolean">false</upToDate>
+					<lawyer xsi:type="ns1:Lawyer">
+						<officeCountry xsi:nil="true"/>
+						<officeCity xsi:nil="true"/>
+						<officePlace xsi:nil="true"/>
+						<officeBuilding xsi:nil="true"/>
+						<price xsi:type="xsd:float">0</price>
+						<currency href="#ref1"/>
+						<educations SOAP-ENC:arrayType="ns1:Education[1]" xsi:type="ns1:EducationArray">
+							<item xsi:type="ns1:Education">
+								<educationId xsi:type="xsd:int">20</educationId>
+                                <endingDate xsi:type="xsd:int">2000</endingDate>
+                                <details xsi:type="xsd:string">National University Odesa Law Academy</details>
+								<clientEducationId xsi:nil="true"/>
+							</item>
+						</educations>
+						<practice xsi:nil="true"/>
+						<experiences xsi:nil="true" xsi:type="ns1:ExperienceArray"/>
+						<locations xsi:nil="true" xsi:type="ns1:LocationArray"/>
+						<rating xsi:nil="true"/>
+						<ratingCustomers xsi:nil="true"/>
+						<personId xsi:type="xsd:int">20</personId>
+						<firstname xsi:type="xsd:string">Helen</firstname>
+						<lastname xsi:type="xsd:string">Gam.</lastname>
+						<surname xsi:type="xsd:string"/>
+						<dob xsi:type="xsd:int">0</dob>
+						<pic xsi:type="xsd:string">http://5.15.15.15/~legalcom/sandbox_legalcom_org/frontend/uploads/__anonym__.jpg</pic>
+						<gender xsi:nil="true"/>
+						<site xsi:nil="true"/>
+						<countries SOAP-ENC:arrayType="ns1:Country[1]" xsi:type="ns1:CountryArray">
+							<item href="#ref2"/>
+						</countries>
+						<languages SOAP-ENC:arrayType="ns1:Language[1]" xsi:type="ns1:LanguageArray">
+							<item xsi:type="ns1:Language">
+								<languageId xsi:type="xsd:int">103</languageId>
+								<languageName xsi:type="xsd:string">Ukrainian</languageName>
+								<languageIso xsi:type="xsd:string">uk</languageIso>
+							</item>
+						</languages>
+						<city xsi:nil="true"/>
+						<about xsi:nil="true"/>
+						<title xsi:nil="true"/>
+						<lastUpdate xsi:type="xsd:string">2012-08-06 08:18:51</lastUpdate>
+					</lawyer>
+				</item>
+				<item xsi:type="ns1:IsLawyerUpToDateResponse">
+					<lawyerId xsi:type="xsd:int">19</lawyerId>
+					<upToDate xsi:type="xsd:boolean">false</upToDate>
+					<lawyer xsi:type="ns1:Lawyer">
+						<officeCountry xsi:nil="true"/>
+						<officeCity xsi:nil="true"/>
+						<officePlace xsi:nil="true"/>
+						<officeBuilding xsi:nil="true"/>
+						<price xsi:type="xsd:float">0</price>
+						<currency href="#ref1"/>
+						<educations SOAP-ENC:arrayType="ns1:Education[1]" xsi:type="ns1:EducationArray">
+							<item xsi:type="ns1:Education">
+								<educationId xsi:type="xsd:int">19</educationId>
+								<endingDate xsi:type="xsd:int">2003</endingDate>
+								<details xsi:type="xsd:string">Kharkiv National Juridical Academy</details>
+								<clientEducationId xsi:nil="true"/>
+							</item>
+						</educations>
+						<practice xsi:nil="true"/>
+						<experiences xsi:nil="true" xsi:type="ns1:ExperienceArray"/>
+						<locations xsi:nil="true" xsi:type="ns1:LocationArray"/>
+						<rating xsi:nil="true"/>
+						<ratingCustomers xsi:nil="true"/>
+						<personId xsi:type="xsd:int">19</personId>
+						<firstname xsi:type="xsd:string">Svetlana</firstname>
+						<lastname xsi:type="xsd:string">Vorob.</lastname>
+						<surname xsi:type="xsd:string">Genn.</surname>
+						<dob xsi:type="xsd:int">0</dob>
+						<pic xsi:type="xsd:string">http://5.15.15.15/~legalcom/sandbox_legalcom_org/frontend/uploads/__anonym__.jpg</pic>
+						<gender xsi:nil="true"/>
+						<site xsi:nil="true"/>
+						<countries SOAP-ENC:arrayType="ns1:Country[1]" xsi:type="ns1:CountryArray">
+							<item href="#ref2"/>
+						</countries>
+						<languages SOAP-ENC:arrayType="ns1:Language[1]" xsi:type="ns1:LanguageArray">
+							<item xsi:type="ns1:Language">
+								<languageId xsi:type="xsd:int">103</languageId>
+								<languageName xsi:type="xsd:string">Ukrainian</languageName>
+								<languageIso xsi:type="xsd:string">uk</languageIso>
+							</item>
+						</languages>
+						<city xsi:nil="true"/>
+						<about xsi:nil="true"/>
+						<title xsi:nil="true"/>
+						<lastUpdate xsi:type="xsd:string">2012-08-06 08:18:51</lastUpdate>
+					</lawyer>
+				</item>
+				<item xsi:type="ns1:IsLawyerUpToDateResponse">
+					<lawyerId xsi:type="xsd:int">18</lawyerId>
+					<upToDate xsi:type="xsd:boolean">false</upToDate>
+					<lawyer xsi:type="ns1:Lawyer">
+						<officeCountry xsi:nil="true"/>
+						<officeCity xsi:nil="true"/>
+						<officePlace xsi:nil="true"/>
+						<officeBuilding xsi:nil="true"/>
+						<price xsi:type="xsd:float">0</price>
+						<currency href="#ref1"/>
+						<educations SOAP-ENC:arrayType="ns1:Education[1]" xsi:type="ns1:EducationArray">
+							<item xsi:type="ns1:Education">
+								<educationId xsi:type="xsd:int">18</educationId>
+								<endingDate xsi:type="xsd:int">1991</endingDate>
+								<details xsi:type="xsd:string">Yuriy Fedkovych Chernivtsi National University</details>
+								<clientEducationId xsi:nil="true"/>
+							</item>
+						</educations>
+						<practice xsi:nil="true"/>
+						<experiences xsi:nil="true" xsi:type="ns1:ExperienceArray"/>
+						<locations xsi:nil="true" xsi:type="ns1:LocationArray"/>
+						<rating xsi:nil="true"/>
+						<ratingCustomers xsi:nil="true"/>
+						<personId xsi:type="xsd:int">18</personId>
+						<firstname xsi:type="xsd:string">Fedir</firstname>
+						<lastname xsi:type="xsd:string">Arnitsky</lastname>
+						<surname xsi:type="xsd:string">Vasyliv</surname>
+						<dob xsi:type="xsd:int">0</dob>
+						<pic xsi:type="xsd:string">http://5.15.15.15/~legalcom/sandbox_legalcom_org/frontend/uploads/__anonym__.jpg</pic>
+						<gender xsi:nil="true"/>
+						<site xsi:nil="true"/>
+						<countries SOAP-ENC:arrayType="ns1:Country[1]" xsi:type="ns1:CountryArray">
+							<item href="#ref2"/>
+						</countries>
+						<languages SOAP-ENC:arrayType="ns1:Language[1]" xsi:type="ns1:LanguageArray">
+							<item xsi:type="ns1:Language">
+								<languageId xsi:type="xsd:int">103</languageId>
+								<languageName xsi:type="xsd:string">Ukrainian</languageName>
+								<languageIso xsi:type="xsd:string">uk</languageIso>
+							</item>
+						</languages>
+						<city xsi:nil="true"/>
+						<about xsi:nil="true"/>
+						<title xsi:nil="true"/>
+						<lastUpdate xsi:type="xsd:string">2012-08-06 08:18:51</lastUpdate>
+					</lawyer>
+				</item>
+				<item xsi:type="ns1:IsLawyerUpToDateResponse">
+					<lawyerId xsi:type="xsd:int">17</lawyerId>
+					<upToDate xsi:type="xsd:boolean">false</upToDate>
+					<lawyer xsi:type="ns1:Lawyer">
+						<officeCountry xsi:nil="true"/>
+						<officeCity xsi:nil="true"/>
+						<officePlace xsi:nil="true"/>
+						<officeBuilding xsi:nil="true"/>
+						<price xsi:type="xsd:float">0</price>
+						<currency href="#ref1"/>
+						<educations SOAP-ENC:arrayType="ns1:Education[1]" xsi:type="ns1:EducationArray">
+							<item xsi:type="ns1:Education">
+								<educationId xsi:type="xsd:int">17</educationId>
+								<endingDate xsi:type="xsd:int">1996</endingDate>
+								<details xsi:type="xsd:string">St. Petersburg Law Institute</details>
+								<clientEducationId xsi:nil="true"/>
+							</item>
+						</educations>
+						<practice xsi:nil="true"/>
+						<experiences xsi:nil="true" xsi:type="ns1:ExperienceArray"/>
+						<locations xsi:nil="true" xsi:type="ns1:LocationArray"/>
+						<rating xsi:nil="true"/>
+						<ratingCustomers xsi:nil="true"/>
+						<personId xsi:type="xsd:int">17</personId>
+						<firstname xsi:type="xsd:string">Oleh</firstname>
+						<lastname xsi:type="xsd:string">Vech.</lastname>
+						<surname xsi:type="xsd:string">Anatol.</surname>
+						<dob xsi:type="xsd:int">0</dob>
+						<pic xsi:type="xsd:string">http://5.15.15.15/~legalcom/sandbox_legalcom_org/frontend/uploads/__anonym__.jpg</pic>
+						<gender xsi:nil="true"/>
+						<site xsi:nil="true"/>
+						<countries SOAP-ENC:arrayType="ns1:Country[1]" xsi:type="ns1:CountryArray">
+							<item href="#ref3   "/>
+						</countries>
+						<languages SOAP-ENC:arrayType="ns1:Language[1]" xsi:type="ns1:LanguageArray">
+							<item xsi:type="ns1:Language">
+                                <languageId xsi:type="xsd:int">101</languageId>
+                                <languageName xsi:type="xsd:string">Russian</languageName>
+                                <languageIso xsi:type="xsd:string">ru</languageIso>
+							</item>
+						</languages>
+						<city xsi:nil="true"/>
+						<about xsi:nil="true"/>
+						<title xsi:nil="true"/>
+						<lastUpdate xsi:type="xsd:string">2012-08-06 08:18:50</lastUpdate>
+					</lawyer>
+				</item>
+				<item xsi:type="ns1:IsLawyerUpToDateResponse">
+					<lawyerId xsi:type="xsd:int">16</lawyerId>
+					<upToDate xsi:type="xsd:boolean">false</upToDate>
+					<lawyer xsi:type="ns1:Lawyer">
+						<officeCountry xsi:nil="true"/>
+						<officeCity xsi:nil="true"/>
+						<officePlace xsi:nil="true"/>
+						<officeBuilding xsi:nil="true"/>
+						<price xsi:type="xsd:float">0</price>
+						<currency href="#ref1"/>
+						<educations SOAP-ENC:arrayType="ns1:Education[1]" xsi:type="ns1:EducationArray">
+							<item xsi:type="ns1:Education">
+								<educationId xsi:type="xsd:int">16</educationId>
+								<endingDate xsi:type="xsd:int">Kharkiv National Juridical Academy</endingDate>
+								<details xsi:type="xsd:string"/>
+								<clientEducationId xsi:nil="true"/>
+							</item>
+						</educations>
+						<practice xsi:nil="true"/>
+						<experiences xsi:nil="true" xsi:type="ns1:ExperienceArray"/>
+						<locations xsi:nil="true" xsi:type="ns1:LocationArray"/>
+						<rating xsi:nil="true"/>
+						<ratingCustomers xsi:nil="true"/>
+						<personId xsi:type="xsd:int">16</personId>
+						<firstname xsi:type="xsd:string">Andrey</firstname>
+						<lastname xsi:type="xsd:string">Vents.</lastname>
+						<surname xsi:type="xsd:string"/>
+						<dob xsi:type="xsd:int">0</dob>
+						<pic xsi:type="xsd:string">http://5.15.15.15/~legalcom/sandbox_legalcom_org/frontend/uploads/__anonym__.jpg</pic>
+						<gender xsi:nil="true"/>
+						<site xsi:nil="true"/>
+						<countries SOAP-ENC:arrayType="ns1:Country[1]" xsi:type="ns1:CountryArray">
+							<item href="#ref2"/>
+						</countries>
+						<languages SOAP-ENC:arrayType="ns1:Language[1]" xsi:type="ns1:LanguageArray">
+							<item xsi:type="ns1:Language">
+								<languageId xsi:type="xsd:int">103</languageId>
+								<languageName xsi:type="xsd:string">Ukrainian</languageName>
+								<languageIso xsi:type="xsd:string">uk</languageIso>
+							</item>
+						</languages>
+						<city xsi:nil="true"/>
+						<about xsi:nil="true"/>
+						<title xsi:nil="true"/>
+						<lastUpdate xsi:type="xsd:string">2012-08-06 08:18:50</lastUpdate>
+					</lawyer>
+				</item>
+				<item xsi:type="ns1:IsLawyerUpToDateResponse">
+					<lawyerId xsi:type="xsd:int">15</lawyerId>
+					<upToDate xsi:type="xsd:boolean">false</upToDate>
+					<lawyer xsi:type="ns1:Lawyer">
+						<officeCountry xsi:nil="true"/>
+						<officeCity xsi:nil="true"/>
+						<officePlace xsi:nil="true"/>
+						<officeBuilding xsi:nil="true"/>
+						<price xsi:type="xsd:float">0</price>
+						<currency href="#ref1"/>
+						<educations SOAP-ENC:arrayType="ns1:Education[1]" xsi:type="ns1:EducationArray">
+							<item xsi:type="ns1:Education">
+								<educationId xsi:type="xsd:int">15</educationId>
+								<endingDate xsi:type="xsd:int">1997</endingDate>
+								<details xsi:type="xsd:string">Ivan Franko National University of Lviv</details>
+								<clientEducationId xsi:nil="true"/>
+							</item>
+						</educations>
+						<practice xsi:nil="true"/>
+						<experiences xsi:nil="true" xsi:type="ns1:ExperienceArray"/>
+						<locations xsi:nil="true" xsi:type="ns1:LocationArray"/>
+						<rating xsi:nil="true"/>
+						<ratingCustomers xsi:nil="true"/>
+						<personId xsi:type="xsd:int">15</personId>
+						<firstname xsi:type="xsd:string">Ihor</firstname>
+						<lastname xsi:type="xsd:string">Taran</lastname>
+						<surname xsi:type="xsd:string">Onufr.</surname>
+						<dob xsi:type="xsd:int">0</dob>
+						<pic xsi:type="xsd:string">http://5.15.15.15/~legalcom/sandbox_legalcom_org/frontend/uploads/__anonym__.jpg</pic>
+						<gender xsi:nil="true"/>
+						<site xsi:nil="true"/>
+						<countries SOAP-ENC:arrayType="ns1:Country[1]" xsi:type="ns1:CountryArray">
+							<item href="#ref2"/>
+						</countries>
+						<languages SOAP-ENC:arrayType="ns1:Language[1]" xsi:type="ns1:LanguageArray">
+							<item xsi:type="ns1:Language">
+								<languageId xsi:type="xsd:int">103</languageId>
+								<languageName xsi:type="xsd:string">Ukrainian</languageName>
+								<languageIso xsi:type="xsd:string">uk</languageIso>
+							</item>
+						</languages>
+						<city xsi:nil="true"/>
+						<about xsi:nil="true"/>
+						<title xsi:nil="true"/>
+						<lastUpdate xsi:type="xsd:string">2012-08-06 08:18:50</lastUpdate>
+					</lawyer>
+				</item>
+				<item xsi:type="ns1:IsLawyerUpToDateResponse">
+					<lawyerId xsi:type="xsd:int">14</lawyerId>
+					<upToDate xsi:type="xsd:boolean">false</upToDate>
+					<lawyer xsi:type="ns1:Lawyer">
+						<officeCountry xsi:nil="true"/>
+						<officeCity xsi:nil="true"/>
+						<officePlace xsi:nil="true"/>
+						<officeBuilding xsi:nil="true"/>
+						<price xsi:type="xsd:float">0</price>
+						<currency href="#ref1"/>
+						<educations SOAP-ENC:arrayType="ns1:Education[1]" xsi:type="ns1:EducationArray">
+							<item xsi:type="ns1:Education">
+								<educationId xsi:type="xsd:int">14</educationId>
+								<endingDate xsi:type="xsd:int">1999</endingDate>
+								<details xsi:type="xsd:string">Oles Honchar Dnipropetrovsk National University</details>
+								<clientEducationId xsi:nil="true"/>
+							</item>
+						</educations>
+						<practice xsi:nil="true"/>
+						<experiences xsi:nil="true" xsi:type="ns1:ExperienceArray"/>
+						<locations xsi:nil="true" xsi:type="ns1:LocationArray"/>
+						<rating xsi:nil="true"/>
+						<ratingCustomers xsi:nil="true"/>
+						<personId xsi:type="xsd:int">14</personId>
+						<firstname xsi:type="xsd:string">Alexander</firstname>
+						<lastname xsi:type="xsd:string">Dashkevich</lastname>
+						<surname xsi:type="xsd:string"/>
+						<dob xsi:type="xsd:int">0</dob>
+						<pic xsi:type="xsd:string">http://5.15.15.15/~legalcom/sandbox_legalcom_org/frontend/uploads/__anonym__.jpg</pic>
+						<gender xsi:nil="true"/>
+						<site xsi:nil="true"/>
+						<countries SOAP-ENC:arrayType="ns1:Country[1]" xsi:type="ns1:CountryArray">
+							<item href="#ref2"/>
+						</countries>
+						<languages SOAP-ENC:arrayType="ns1:Language[1]" xsi:type="ns1:LanguageArray">
+							<item xsi:type="ns1:Language">
+								<languageId xsi:type="xsd:int">103</languageId>
+								<languageName xsi:type="xsd:string">Ukrainian</languageName>
+								<languageIso xsi:type="xsd:string">uk</languageIso>
+							</item>
+						</languages>
+						<city xsi:nil="true"/>
+						<about xsi:nil="true"/>
+						<title xsi:nil="true"/>
+						<lastUpdate xsi:type="xsd:string">2012-08-06 08:18:50</lastUpdate>
+					</lawyer>
+				</item>
+				<item xsi:type="ns1:IsLawyerUpToDateResponse">
+					<lawyerId xsi:type="xsd:int">13</lawyerId>
+					<upToDate xsi:type="xsd:boolean">false</upToDate>
+					<lawyer xsi:type="ns1:Lawyer">
+						<officeCountry xsi:nil="true"/>
+						<officeCity xsi:nil="true"/>
+						<officePlace xsi:nil="true"/>
+						<officeBuilding xsi:nil="true"/>
+						<price xsi:type="xsd:float">0</price>
+						<currency href="#ref1"/>
+						<educations SOAP-ENC:arrayType="ns1:Education[1]" xsi:type="ns1:EducationArray">
+							<item xsi:type="ns1:Education">
+								<educationId xsi:type="xsd:int">13</educationId>
+								<endingDate xsi:type="xsd:int">1996</endingDate>
+								<details xsi:type="xsd:string">Taras Shevchenko National University of Kyiv</details>
+								<clientEducationId xsi:nil="true"/>
+							</item>
+						</educations>
+						<practice xsi:nil="true"/>
+						<experiences xsi:nil="true" xsi:type="ns1:ExperienceArray"/>
+						<locations xsi:nil="true" xsi:type="ns1:LocationArray"/>
+						<rating xsi:nil="true"/>
+						<ratingCustomers xsi:nil="true"/>
+						<personId xsi:type="xsd:int">13</personId>
+						<firstname xsi:type="xsd:string">Andrey</firstname>
+						<lastname xsi:type="xsd:string">Boer</lastname>
+						<surname xsi:type="xsd:string"/>
+						<dob xsi:type="xsd:int">0</dob>
+						<pic xsi:type="xsd:string">http://5.15.15.15/~legalcom/sandbox_legalcom_org/frontend/uploads/__anonym__.jpg</pic>
+						<gender xsi:nil="true"/>
+						<site xsi:nil="true"/>
+						<countries SOAP-ENC:arrayType="ns1:Country[1]" xsi:type="ns1:CountryArray">
+							<item href="#ref2"/>
+						</countries>
+						<languages SOAP-ENC:arrayType="ns1:Language[1]" xsi:type="ns1:LanguageArray">
+							<item xsi:type="ns1:Language">
+								<languageId xsi:type="xsd:int">103</languageId>
+								<languageName xsi:type="xsd:string">Ukrainian</languageName>
+								<languageIso xsi:type="xsd:string">uk</languageIso>
+							</item>
+						</languages>
+						<city xsi:nil="true"/>
+						<about xsi:nil="true"/>
+						<title xsi:nil="true"/>
+						<lastUpdate xsi:type="xsd:string">2012-08-06 08:18:50</lastUpdate>
+					</lawyer>
+				</item>
+				<item xsi:type="ns1:IsLawyerUpToDateResponse">
+					<lawyerId xsi:type="xsd:int">12</lawyerId>
+					<upToDate xsi:type="xsd:boolean">false</upToDate>
+					<lawyer xsi:type="ns1:Lawyer">
+						<officeCountry xsi:nil="true"/>
+						<officeCity xsi:nil="true"/>
+						<officePlace xsi:nil="true"/>
+						<officeBuilding xsi:nil="true"/>
+						<price xsi:type="xsd:float">0</price>
+						<currency href="#ref1"/>
+						<educations SOAP-ENC:arrayType="ns1:Education[1]" xsi:type="ns1:EducationArray">
+							<item xsi:type="ns1:Education">
+								<educationId xsi:type="xsd:int">12</educationId>
+								<endingDate xsi:type="xsd:int">2003</endingDate>
+								<details xsi:type="xsd:string">Moldova State University</details>
+								<clientEducationId xsi:nil="true"/>
+							</item>
+						</educations>
+						<practice xsi:nil="true"/>
+						<experiences xsi:nil="true" xsi:type="ns1:ExperienceArray"/>
+						<locations xsi:nil="true" xsi:type="ns1:LocationArray"/>
+						<rating xsi:nil="true"/>
+						<ratingCustomers xsi:nil="true"/>
+						<personId xsi:type="xsd:int">12</personId>
+						<firstname xsi:type="xsd:string">Sergey</firstname>
+						<lastname xsi:type="xsd:string">Dargan</lastname>
+						<surname xsi:type="xsd:string">Petr.</surname>
+						<dob xsi:type="xsd:int">0</dob>
+						<pic xsi:type="xsd:string">http://5.15.15.15/~legalcom/sandbox_legalcom_org/frontend/uploads/__anonym__.jpg</pic>
+						<gender xsi:nil="true"/>
+						<site xsi:nil="true"/>
+						<countries SOAP-ENC:arrayType="ns1:Country[1]" xsi:type="ns1:CountryArray">
+							<item xsi:type="ns1:Country">
+								<countryId xsi:type="xsd:int">498</countryId>
+								<countryName xsi:type="xsd:string">Moldova</countryName>
+								<alpha2 xsi:nil="true"/>
+								<priority xsi:type="xsd:int">0</priority>
+							</item>
+						</countries>
+						<languages SOAP-ENC:arrayType="ns1:Language[1]" xsi:type="ns1:LanguageArray">
+							<item xsi:type="ns1:Language">
+								<languageId xsi:type="xsd:int">108</languageId>
+								<languageName xsi:type="xsd:string">Romanian</languageName>
+								<languageIso xsi:type="xsd:string">ro</languageIso>
+							</item>
+						</languages>
+						<city xsi:nil="true"/>
+						<about xsi:nil="true"/>
+						<title xsi:nil="true"/>
+						<lastUpdate xsi:type="xsd:string">2012-08-06 08:18:50</lastUpdate>
+					</lawyer>
+				</item>
+				<item xsi:type="ns1:IsLawyerUpToDateResponse">
+					<lawyerId xsi:type="xsd:int">11</lawyerId>
+					<upToDate xsi:type="xsd:boolean">false</upToDate>
+					<lawyer xsi:type="ns1:Lawyer">
+						<officeCountry xsi:nil="true"/>
+						<officeCity xsi:nil="true"/>
+						<officePlace xsi:nil="true"/>
+						<officeBuilding xsi:nil="true"/>
+						<price xsi:type="xsd:float">0</price>
+						<currency href="#ref1"/>
+						<educations SOAP-ENC:arrayType="ns1:Education[1]" xsi:type="ns1:EducationArray">
+							<item xsi:type="ns1:Education">
+								<educationId xsi:type="xsd:int">11</educationId>
+								<endingDate xsi:type="xsd:int">2001</endingDate>
+								<details xsi:type="xsd:string">Taras Shevchenko National University of Kyiv</details>
+								<clientEducationId xsi:nil="true"/>
+							</item>
+						</educations>
+						<practice xsi:nil="true"/>
+						<experiences xsi:nil="true" xsi:type="ns1:ExperienceArray"/>
+						<locations xsi:nil="true" xsi:type="ns1:LocationArray"/>
+						<rating xsi:nil="true"/>
+						<ratingCustomers xsi:nil="true"/>
+						<personId xsi:type="xsd:int">11</personId>
+						<firstname xsi:type="xsd:string">Alexei</firstname>
+						<lastname xsi:type="xsd:string">Havril.</lastname>
+						<surname xsi:type="xsd:string">Georg.</surname>
+						<dob xsi:type="xsd:int">0</dob>
+						<pic xsi:type="xsd:string">http://5.15.15.15/~legalcom/sandbox_legalcom_org/frontend/uploads/__anonym__.jpg</pic>
+						<gender xsi:nil="true"/>
+						<site xsi:nil="true"/>
+						<countries SOAP-ENC:arrayType="ns1:Country[1]" xsi:type="ns1:CountryArray">
+							<item href="#ref2"/>
+						</countries>
+						<languages SOAP-ENC:arrayType="ns1:Language[1]" xsi:type="ns1:LanguageArray">
+							<item xsi:type="ns1:Language">
+								<languageId xsi:type="xsd:int">103</languageId>
+								<languageName xsi:type="xsd:string">Ukrainian</languageName>
+								<languageIso xsi:type="xsd:string">uk</languageIso>
+							</item>
+						</languages>
+						<city xsi:nil="true"/>
+						<about xsi:nil="true"/>
+						<title xsi:nil="true"/>
+						<lastUpdate xsi:type="xsd:string">2012-08-06 08:18:49</lastUpdate>
+					</lawyer>
+				</item>
+				<item xsi:type="ns1:IsLawyerUpToDateResponse">
+					<lawyerId xsi:type="xsd:int">10</lawyerId>
+					<upToDate xsi:type="xsd:boolean">false</upToDate>
+					<lawyer xsi:type="ns1:Lawyer">
+						<officeCountry xsi:nil="true"/>
+						<officeCity xsi:nil="true"/>
+						<officePlace xsi:nil="true"/>
+						<officeBuilding xsi:nil="true"/>
+						<price xsi:type="xsd:float">0</price>
+						<currency href="#ref1"/>
+						<educations SOAP-ENC:arrayType="ns1:Education[1]" xsi:type="ns1:EducationArray">
+							<item xsi:type="ns1:Education">
+								<educationId xsi:type="xsd:int">10</educationId>
+								<endingDate xsi:type="xsd:int">2001</endingDate>
+								<details xsi:type="xsd:string">Al-Farabi Kazakh National University</details>
+								<clientEducationId xsi:nil="true"/>
+							</item>
+						</educations>
+						<practice xsi:nil="true"/>
+						<experiences xsi:nil="true" xsi:type="ns1:ExperienceArray"/>
+						<locations xsi:nil="true" xsi:type="ns1:LocationArray"/>
+						<rating xsi:nil="true"/>
+						<ratingCustomers xsi:nil="true"/>
+						<personId xsi:type="xsd:int">10</personId>
+						<firstname xsi:type="xsd:string">Ruslan</firstname>
+						<lastname xsi:type="xsd:string">Hametov</lastname>
+						<surname xsi:type="xsd:string">Malik.</surname>
+						<dob xsi:type="xsd:int">0</dob>
+						<pic xsi:type="xsd:string">http://5.15.15.15/~legalcom/sandbox_legalcom_org/frontend/uploads/__anonym__.jpg</pic>
+						<gender xsi:nil="true"/>
+						<site xsi:nil="true"/>
+						<countries SOAP-ENC:arrayType="ns1:Country[1]" xsi:type="ns1:CountryArray">
+							<item xsi:type="ns1:Country">
+								<countryId xsi:type="xsd:int">398</countryId>
+								<countryName xsi:type="xsd:string">Kazakhstan</countryName>
+								<alpha2 xsi:nil="true"/>
+								<priority xsi:type="xsd:int">0</priority>
+							</item>
+						</countries>
+						<languages SOAP-ENC:arrayType="ns1:Language[1]" xsi:type="ns1:LanguageArray">
+							<item xsi:type="ns1:Language">
+                                <languageId xsi:type="xsd:int">101</languageId>
+                                <languageName xsi:type="xsd:string">Russian</languageName>
+                                <languageIso xsi:type="xsd:string">ru</languageIso>
+							</item>
+						</languages>
+						<city xsi:nil="true"/>
+						<about xsi:nil="true"/>
+						<title xsi:nil="true"/>
+						<lastUpdate xsi:type="xsd:string">2012-08-06 08:18:49</lastUpdate>
+					</lawyer>
+				</item>
+				<item xsi:type="ns1:IsLawyerUpToDateResponse">
+					<lawyerId xsi:type="xsd:int">9</lawyerId>
+					<upToDate xsi:type="xsd:boolean">false</upToDate>
+					<lawyer xsi:type="ns1:Lawyer">
+						<officeCountry xsi:nil="true"/>
+						<officeCity xsi:nil="true"/>
+						<officePlace xsi:nil="true"/>
+						<officeBuilding xsi:nil="true"/>
+						<price xsi:type="xsd:float">0</price>
+						<currency href="#ref1"/>
+						<educations SOAP-ENC:arrayType="ns1:Education[1]" xsi:type="ns1:EducationArray">
+							<item xsi:type="ns1:Education">
+								<educationId xsi:type="xsd:int">9</educationId>
+								<endingDate xsi:type="xsd:int">1997</endingDate>
+								<details xsi:type="xsd:string">Taras Shevchenko National University of Kyiv</details>
+								<clientEducationId xsi:nil="true"/>
+							</item>
+						</educations>
+						<practice xsi:nil="true"/>
+						<experiences xsi:nil="true" xsi:type="ns1:ExperienceArray"/>
+						<locations xsi:nil="true" xsi:type="ns1:LocationArray"/>
+						<rating xsi:nil="true"/>
+						<ratingCustomers xsi:nil="true"/>
+						<personId xsi:type="xsd:int">9</personId>
+						<firstname xsi:type="xsd:string">Hanna</firstname>
+						<lastname xsi:type="xsd:string">Vinnich.</lastname>
+						<surname xsi:type="xsd:string">Oleh.</surname>
+						<dob xsi:type="xsd:int">0</dob>
+						<pic xsi:type="xsd:string">http://5.15.15.15/~legalcom/sandbox_legalcom_org/frontend/uploads/__anonym__.jpg</pic>
+						<gender xsi:nil="true"/>
+						<site xsi:nil="true"/>
+						<countries SOAP-ENC:arrayType="ns1:Country[1]" xsi:type="ns1:CountryArray">
+							<item href="#ref2"/>
+						</countries>
+						<languages SOAP-ENC:arrayType="ns1:Language[1]" xsi:type="ns1:LanguageArray">
+							<item xsi:type="ns1:Language">
+								<languageId xsi:type="xsd:int">103</languageId>
+								<languageName xsi:type="xsd:string">Ukrainian</languageName>
+								<languageIso xsi:type="xsd:string">uk</languageIso>
+							</item>
+						</languages>
+						<city xsi:nil="true"/>
+						<about xsi:nil="true"/>
+						<title xsi:nil="true"/>
+						<lastUpdate xsi:type="xsd:string">2012-08-06 08:18:49</lastUpdate>
+					</lawyer>
+				</item>
+				<item xsi:type="ns1:IsLawyerUpToDateResponse">
+					<lawyerId xsi:type="xsd:int">8</lawyerId>
+					<upToDate xsi:type="xsd:boolean">false</upToDate>
+					<lawyer xsi:type="ns1:Lawyer">
+						<officeCountry xsi:nil="true"/>
+						<officeCity xsi:nil="true"/>
+						<officePlace xsi:nil="true"/>
+						<officeBuilding xsi:nil="true"/>
+						<price xsi:type="xsd:float">0</price>
+						<currency href="#ref1"/>
+						<educations SOAP-ENC:arrayType="ns1:Education[1]" xsi:type="ns1:EducationArray">
+							<item xsi:type="ns1:Education">
+								<educationId xsi:type="xsd:int">8</educationId>
+								<endingDate xsi:type="xsd:int">1987</endingDate>
+								<details xsi:type="xsd:string">Ivan Franko National University of Lviv</details>
+								<clientEducationId xsi:nil="true"/>
+							</item>
+						</educations>
+						<practice xsi:nil="true"/>
+						<experiences xsi:nil="true" xsi:type="ns1:ExperienceArray"/>
+						<locations xsi:nil="true" xsi:type="ns1:LocationArray"/>
+						<rating xsi:nil="true"/>
+						<ratingCustomers xsi:nil="true"/>
+						<personId xsi:type="xsd:int">8</personId>
+						<firstname xsi:type="xsd:string">Yuri</firstname>
+						<lastname xsi:type="xsd:string">Denisenko</lastname>
+						<surname xsi:type="xsd:string">Alex.</surname>
+						<dob xsi:type="xsd:int">0</dob>
+						<pic xsi:type="xsd:string">http://5.15.15.15/~legalcom/sandbox_legalcom_org/frontend/uploads/__anonym__.jpg</pic>
+						<gender xsi:nil="true"/>
+						<site xsi:nil="true"/>
+						<countries SOAP-ENC:arrayType="ns1:Country[1]" xsi:type="ns1:CountryArray">
+							<item href="#ref2"/>
+						</countries>
+						<languages SOAP-ENC:arrayType="ns1:Language[1]" xsi:type="ns1:LanguageArray">
+							<item xsi:type="ns1:Language">
+								<languageId xsi:type="xsd:int">103</languageId>
+								<languageName xsi:type="xsd:string">Ukrainian</languageName>
+								<languageIso xsi:type="xsd:string">uk</languageIso>
+							</item>
+						</languages>
+						<city xsi:nil="true"/>
+						<about xsi:nil="true"/>
+						<title xsi:nil="true"/>
+						<lastUpdate xsi:type="xsd:string">2012-08-06 08:18:49</lastUpdate>
+					</lawyer>
+				</item>
+				<item xsi:type="ns1:IsLawyerUpToDateResponse">
+					<lawyerId xsi:type="xsd:int">7</lawyerId>
+					<upToDate xsi:type="xsd:boolean">false</upToDate>
+					<lawyer xsi:type="ns1:Lawyer">
+						<officeCountry xsi:nil="true"/>
+						<officeCity xsi:nil="true"/>
+						<officePlace xsi:nil="true"/>
+						<officeBuilding xsi:nil="true"/>
+						<price xsi:type="xsd:float">0</price>
+						<currency href="#ref1"/>
+						<educations SOAP-ENC:arrayType="ns1:Education[1]" xsi:type="ns1:EducationArray">
+							<item xsi:type="ns1:Education">
+								<educationId xsi:type="xsd:int">7</educationId>
+								<endingDate xsi:type="xsd:int">2002</endingDate>
+								<details xsi:type="xsd:string"> Kharkiv National Juridical Academy</details> Kharkiv National Juridical Academy
+								<clientEducationId xsi:nil="true"/>
+							</item>
+						</educations>
+						<practice xsi:nil="true"/>
+						<experiences xsi:nil="true" xsi:type="ns1:ExperienceArray"/>
+						<locations xsi:nil="true" xsi:type="ns1:LocationArray"/>
+						<rating xsi:nil="true"/>
+						<ratingCustomers xsi:nil="true"/>
+						<personId xsi:type="xsd:int">7</personId>
+						<firstname xsi:type="xsd:string">Peter</firstname>
+						<lastname xsi:type="xsd:string">Anher</lastname>
+						<surname xsi:type="xsd:string"/>
+						<dob xsi:type="xsd:int">0</dob>
+						<pic xsi:type="xsd:string">http://5.15.15.15/~legalcom/sandbox_legalcom_org/frontend/uploads/__anonym__.jpg</pic>
+						<gender xsi:nil="true"/>
+						<site xsi:nil="true"/>
+						<countries SOAP-ENC:arrayType="ns1:Country[1]" xsi:type="ns1:CountryArray">
+							<item xsi:type="ns1:Country">
+								<countryId xsi:type="xsd:int">276</countryId>
+								<countryName xsi:type="xsd:string">Germany</countryName>
+								<alpha2 xsi:nil="true"/>
+								<priority xsi:type="xsd:int">0</priority>
+							</item>
+						</countries>
+						<languages SOAP-ENC:arrayType="ns1:Language[2]" xsi:type="ns1:LanguageArray">
+							<item xsi:type="ns1:Language">
+								<languageId xsi:type="xsd:int">103</languageId>
+								<languageName xsi:type="xsd:string">Ukrainian</languageName>
+								<languageIso xsi:type="xsd:string">uk</languageIso>
+							</item>
+							<item xsi:type="ns1:Language">
+								<languageId xsi:type="xsd:int">44</languageId>
+								<languageName xsi:type="xsd:string">German</languageName>
+								<languageIso xsi:type="xsd:string">de</languageIso>
+							</item>
+						</languages>
+						<city xsi:nil="true"/>
+						<about xsi:nil="true"/>
+						<title xsi:nil="true"/>
+						<lastUpdate xsi:type="xsd:string">2012-08-06 08:18:49</lastUpdate>
+					</lawyer>
+				</item>
+				<item xsi:type="ns1:IsLawyerUpToDateResponse">
+					<lawyerId xsi:type="xsd:int">6</lawyerId>
+					<upToDate xsi:type="xsd:boolean">false</upToDate>
+					<lawyer xsi:type="ns1:Lawyer">
+						<officeCountry xsi:nil="true"/>
+						<officeCity xsi:nil="true"/>
+						<officePlace xsi:nil="true"/>
+						<officeBuilding xsi:nil="true"/>
+						<price xsi:type="xsd:float">0</price>
+						<currency xsi:type="ns1:Currency">
+							<currencyId xsi:type="xsd:int">3</currencyId>
+							<iso xsi:type="xsd:string">EUR</iso>
+							<sign xsi:nil="true"/>
+						</currency>
+						<educations SOAP-ENC:arrayType="ns1:Education[1]" xsi:type="ns1:EducationArray">
+							<item xsi:type="ns1:Education">
+								<educationId xsi:type="xsd:int">6</educationId>
+								<endingDate xsi:type="xsd:int">1995</endingDate>
+								<details xsi:type="xsd:string">Kharkiv National Juridical Academy</details>
+								<clientEducationId xsi:nil="true"/>
+							</item>
+						</educations>
+						<practice xsi:nil="true"/>
+						<experiences xsi:nil="true" xsi:type="ns1:ExperienceArray"/>
+						<locations xsi:nil="true" xsi:type="ns1:LocationArray"/>
+						<rating xsi:nil="true"/>
+						<ratingCustomers xsi:nil="true"/>
+						<personId xsi:type="xsd:int">6</personId>
+						<firstname xsi:type="xsd:string">Lika</firstname>
+						<lastname xsi:type="xsd:string">Alenko</lastname>
+						<surname xsi:type="xsd:string">Georgievna</surname>
+						<dob xsi:type="xsd:int">0</dob>
+						<pic xsi:type="xsd:string">http://5.15.15.15/~legalcom/sandbox_legalcom_org/frontend/uploads/__anonym__.jpg</pic>
+						<gender xsi:nil="true"/>
+						<site xsi:nil="true"/>
+						<countries SOAP-ENC:arrayType="ns1:Country[1]" xsi:type="ns1:CountryArray">
+							<item href="#ref2"/>
+						</countries>
+						<languages SOAP-ENC:arrayType="ns1:Language[1]" xsi:type="ns1:LanguageArray">
+							<item xsi:type="ns1:Language">
+                                <languageId xsi:type="xsd:int">103</languageId>
+                                <languageName xsi:type="xsd:string">Ukrainian</languageName>
+                                <languageIso xsi:type="xsd:string">uk</languageIso>
+							</item>
+						</languages>
+						<city xsi:nil="true"/>
+						<about xsi:nil="true"/>
+						<title xsi:nil="true"/>
+						<lastUpdate xsi:type="xsd:string">2012-08-06 08:18:49</lastUpdate>
+					</lawyer>
+				</item>
+			</return>
+		</ns1:getLawyersAndSyncResponse>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+

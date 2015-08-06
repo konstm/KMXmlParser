@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFDA83431B2CD92D00B8663F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDA83421B2CD92D00B8663F /* main.m */; };
+		DFDA83461B2CD92D00B8663F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDA83451B2CD92D00B8663F /* AppDelegate.m */; };
+		DFDA834C1B2CD92D00B8663F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFDA834A1B2CD92D00B8663F /* Main.storyboard */; };
+		DFDA834E1B2CD92D00B8663F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFDA834D1B2CD92D00B8663F /* Images.xcassets */; };
+		DFDA83511B2CD92D00B8663F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFDA834F1B2CD92D00B8663F /* LaunchScreen.xib */; };
+		DFDA835D1B2CD92D00B8663F /* KMXmlParserDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDA835C1B2CD92D00B8663F /* KMXmlParserDemoTests.m */; };
+		DFDA83681B2CE82C00B8663F /* XmlFilesController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDA83671B2CE82C00B8663F /* XmlFilesController.m */; };
+		DFDA836B1B2CE8F300B8663F /* XmlParsedController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDA836A1B2CE8F300B8663F /* XmlParsedController.m */; };
+		DFE67DA41B2DCC48001B82DB /* KMXmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE67DA31B2DCC48001B82DB /* KMXmlParser.m */; };
+		DFE67DA61B2DCD24001B82DB /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE67DA51B2DCD24001B82DB /* libxml2.dylib */; };
+		DFE7D2731B55D1160090A666 /* XmlExamples in Resources */ = {isa = PBXBuildFile; fileRef = DFE7D2721B55D1160090A666 /* XmlExamples */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFDA83571B2CD92D00B8663F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFDA83351B2CD92C00B8663F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFDA833C1B2CD92D00B8663F;
+			remoteInfo = KMXmlParserDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFDA833D1B2CD92D00B8663F /* KMXmlParserDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KMXmlParserDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFDA83411B2CD92D00B8663F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFDA83421B2CD92D00B8663F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFDA83441B2CD92D00B8663F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DFDA83451B2CD92D00B8663F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DFDA834B1B2CD92D00B8663F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFDA834D1B2CD92D00B8663F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DFDA83501B2CD92D00B8663F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DFDA83561B2CD92D00B8663F /* KMXmlParserDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMXmlParserDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFDA835B1B2CD92D00B8663F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFDA835C1B2CD92D00B8663F /* KMXmlParserDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMXmlParserDemoTests.m; sourceTree = "<group>"; };
+		DFDA83661B2CE82C00B8663F /* XmlFilesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmlFilesController.h; sourceTree = "<group>"; };
+		DFDA83671B2CE82C00B8663F /* XmlFilesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XmlFilesController.m; sourceTree = "<group>"; };
+		DFDA83691B2CE8F300B8663F /* XmlParsedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmlParsedController.h; sourceTree = "<group>"; };
+		DFDA836A1B2CE8F300B8663F /* XmlParsedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XmlParsedController.m; sourceTree = "<group>"; };
+		DFE67DA21B2DCC48001B82DB /* KMXmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KMXmlParser.h; path = ../../KMXmlParser.h; sourceTree = "<group>"; };
+		DFE67DA31B2DCC48001B82DB /* KMXmlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KMXmlParser.m; path = ../../KMXmlParser.m; sourceTree = "<group>"; };
+		DFE67DA51B2DCD24001B82DB /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		DFE7D2721B55D1160090A666 /* XmlExamples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = XmlExamples; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFDA833A1B2CD92D00B8663F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE67DA61B2DCD24001B82DB /* libxml2.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFDA83531B2CD92D00B8663F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFDA83341B2CD92C00B8663F = {
+			isa = PBXGroup;
+			children = (
+				DFDA833F1B2CD92D00B8663F /* KMXmlParserDemo */,
+				DFDA83591B2CD92D00B8663F /* KMXmlParserDemoTests */,
+				DFDA833E1B2CD92D00B8663F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFDA833E1B2CD92D00B8663F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFDA833D1B2CD92D00B8663F /* KMXmlParserDemo.app */,
+				DFDA83561B2CD92D00B8663F /* KMXmlParserDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFDA833F1B2CD92D00B8663F /* KMXmlParserDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DFDA83441B2CD92D00B8663F /* AppDelegate.h */,
+				DFDA83451B2CD92D00B8663F /* AppDelegate.m */,
+				DFDA83661B2CE82C00B8663F /* XmlFilesController.h */,
+				DFDA83671B2CE82C00B8663F /* XmlFilesController.m */,
+				DFDA83691B2CE8F300B8663F /* XmlParsedController.h */,
+				DFDA836A1B2CE8F300B8663F /* XmlParsedController.m */,
+				DFDA834A1B2CD92D00B8663F /* Main.storyboard */,
+				DFDA834D1B2CD92D00B8663F /* Images.xcassets */,
+				DFDA834F1B2CD92D00B8663F /* LaunchScreen.xib */,
+				DFE67DB21B2E30AD001B82DB /* KMXmlParser */,
+				DFDA83401B2CD92D00B8663F /* Supporting Files */,
+				DFE7D2721B55D1160090A666 /* XmlExamples */,
+				DFE67DAB1B2DCDB9001B82DB /* Frameworks */,
+			);
+			path = KMXmlParserDemo;
+			sourceTree = "<group>";
+		};
+		DFDA83401B2CD92D00B8663F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFDA83411B2CD92D00B8663F /* Info.plist */,
+				DFDA83421B2CD92D00B8663F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFDA83591B2CD92D00B8663F /* KMXmlParserDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFDA835C1B2CD92D00B8663F /* KMXmlParserDemoTests.m */,
+				DFDA835A1B2CD92D00B8663F /* Supporting Files */,
+			);
+			path = KMXmlParserDemoTests;
+			sourceTree = "<group>";
+		};
+		DFDA835A1B2CD92D00B8663F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFDA835B1B2CD92D00B8663F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFE67DAB1B2DCDB9001B82DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFE67DA51B2DCD24001B82DB /* libxml2.dylib */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		DFE67DB21B2E30AD001B82DB /* KMXmlParser */ = {
+			isa = PBXGroup;
+			children = (
+				DFE67DA21B2DCC48001B82DB /* KMXmlParser.h */,
+				DFE67DA31B2DCC48001B82DB /* KMXmlParser.m */,
+			);
+			name = KMXmlParser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFDA833C1B2CD92D00B8663F /* KMXmlParserDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFDA83601B2CD92D00B8663F /* Build configuration list for PBXNativeTarget "KMXmlParserDemo" */;
+			buildPhases = (
+				DFDA83391B2CD92D00B8663F /* Sources */,
+				DFDA833A1B2CD92D00B8663F /* Frameworks */,
+				DFDA833B1B2CD92D00B8663F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KMXmlParserDemo;
+			productName = KMXmlParserDemo;
+			productReference = DFDA833D1B2CD92D00B8663F /* KMXmlParserDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFDA83551B2CD92D00B8663F /* KMXmlParserDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFDA83631B2CD92D00B8663F /* Build configuration list for PBXNativeTarget "KMXmlParserDemoTests" */;
+			buildPhases = (
+				DFDA83521B2CD92D00B8663F /* Sources */,
+				DFDA83531B2CD92D00B8663F /* Frameworks */,
+				DFDA83541B2CD92D00B8663F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFDA83581B2CD92D00B8663F /* PBXTargetDependency */,
+			);
+			name = KMXmlParserDemoTests;
+			productName = KMXmlParserDemoTests;
+			productReference = DFDA83561B2CD92D00B8663F /* KMXmlParserDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFDA83351B2CD92C00B8663F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Konstm;
+				TargetAttributes = {
+					DFDA833C1B2CD92D00B8663F = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					DFDA83551B2CD92D00B8663F = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = DFDA833C1B2CD92D00B8663F;
+					};
+				};
+			};
+			buildConfigurationList = DFDA83381B2CD92C00B8663F /* Build configuration list for PBXProject "KMXmlParserDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFDA83341B2CD92C00B8663F;
+			productRefGroup = DFDA833E1B2CD92D00B8663F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFDA833C1B2CD92D00B8663F /* KMXmlParserDemo */,
+				DFDA83551B2CD92D00B8663F /* KMXmlParserDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFDA833B1B2CD92D00B8663F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFDA834C1B2CD92D00B8663F /* Main.storyboard in Resources */,
+				DFDA83511B2CD92D00B8663F /* LaunchScreen.xib in Resources */,
+				DFDA834E1B2CD92D00B8663F /* Images.xcassets in Resources */,
+				DFE7D2731B55D1160090A666 /* XmlExamples in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFDA83541B2CD92D00B8663F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFDA83391B2CD92D00B8663F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFDA83461B2CD92D00B8663F /* AppDelegate.m in Sources */,
+				DFE67DA41B2DCC48001B82DB /* KMXmlParser.m in Sources */,
+				DFDA83431B2CD92D00B8663F /* main.m in Sources */,
+				DFDA83681B2CE82C00B8663F /* XmlFilesController.m in Sources */,
+				DFDA836B1B2CE8F300B8663F /* XmlParsedController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFDA83521B2CD92D00B8663F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFDA835D1B2CD92D00B8663F /* KMXmlParserDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFDA83581B2CD92D00B8663F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFDA833C1B2CD92D00B8663F /* KMXmlParserDemo */;
+			targetProxy = DFDA83571B2CD92D00B8663F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFDA834A1B2CD92D00B8663F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFDA834B1B2CD92D00B8663F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFDA834F1B2CD92D00B8663F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFDA83501B2CD92D00B8663F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFDA835E1B2CD92D00B8663F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DFDA835F1B2CD92D00B8663F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFDA83611B2CD92D00B8663F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"${SDKROOT}/usr/include/libxml2\"",
+				);
+				INFOPLIST_FILE = KMXmlParserDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DFDA83621B2CD92D00B8663F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"${SDKROOT}/usr/include/libxml2\"",
+				);
+				INFOPLIST_FILE = KMXmlParserDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DFDA83641B2CD92D00B8663F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KMXmlParserDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KMXmlParserDemo.app/KMXmlParserDemo";
+			};
+			name = Debug;
+		};
+		DFDA83651B2CD92D00B8663F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KMXmlParserDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KMXmlParserDemo.app/KMXmlParserDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFDA83381B2CD92C00B8663F /* Build configuration list for PBXProject "KMXmlParserDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFDA835E1B2CD92D00B8663F /* Debug */,
+				DFDA835F1B2CD92D00B8663F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFDA83601B2CD92D00B8663F /* Build configuration list for PBXNativeTarget "KMXmlParserDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFDA83611B2CD92D00B8663F /* Debug */,
+				DFDA83621B2CD92D00B8663F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFDA83631B2CD92D00B8663F /* Build configuration list for PBXNativeTarget "KMXmlParserDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFDA83641B2CD92D00B8663F /* Debug */,
+				DFDA83651B2CD92D00B8663F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFDA83351B2CD92C00B8663F /* Project object */;
+}

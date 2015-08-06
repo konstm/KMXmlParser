@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<shop id="default">
+		<title>Nicolas Vahe</title>
+		<web></web>
+		<coorlong>9.1714559</coorlong>
+		<coorlati>56.1250290</coorlati>
+		<contact>
+			<adresses>
+				<street>Industrivej 29</street>
+				<street2></street2>				
+				<zip>7430 Ikast</zip>
+				<country>DANMARK</country>
+			</adresses>
+			<phone></phone>
+			<email></email>
+		</contact>
+	</shop>
+	
+	<shop id="1">
+		<title>Luxo Living</title>
+		<web>www.luxoliving.dk</web>		
+		<coorlong>8.9724020</coorlong>
+		<coorlati>56.1369600</coorlati>
+		<contact>
+			<adresses>
+				<street>Skolegade 7</street>
+				<street2></street2>				
+				<zip>7400 Herning</zip>			
+				<country>DANMARK</country>
+			</adresses>
+			<phone>97 21 20 90</phone>
+			<email>info@luxoliving.dk</email>
+		</contact>
+	</shop>
+	
+	<shop id="2">
+		<title>Living M&#248;belstudie A/S</title>
+		<web>www.livingshop.dk</web>		
+		<coorlong>8.6200649</coorlong>
+		<coorlati>56.3775330</coorlati>
+		<contact>
+			<adresses>
+				<street>Nyholmvej 3</street>
+				<street2></street2>				
+				<zip>7500 Holstebro</zip>				
+				<country>DANMARK</country>
+			</adresses>
+			<phone>97 42 36 77</phone>
+			<email>info@living-holstebro.dk</email>
+		</contact>
+	</shop>
+</data>
+

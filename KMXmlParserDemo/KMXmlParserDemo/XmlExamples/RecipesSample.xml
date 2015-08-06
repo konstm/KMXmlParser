@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<categories>
+		<category>Bread</category>
+		<category>Chutney</category>
+		<category>Dessert</category>
+		<category>Beverage</category>
+		<category>Fish</category>
+		<category>Poultry</category>
+		<category>Vegetables</category>
+		<category>Marinade</category>
+		<category>Pasta</category>
+		<category>Rice</category>
+		<category>Salads</category>
+		<category>Sauce</category>
+		<category>Pork</category>
+		<category>Venison</category>
+	</categories>
+		
+	<recipe id="5">
+		<category>Pasta</category>
+		<title>RIBBON PASTA WITH MUSHROOMS AND TRUFFLE OIL</title>
+		<smallimageurl>http://www.nicolasvahe.dk/resimgs/320PX/aw13_pasta.jpg</smallimageurl>
+		<bigimageurl>http://www.nicolasvahe.dk/resimgs/960PX/aw13_pasta.jpg</bigimageurl>
+		<description>Cut the bacon and mushrooms into thin strips and fry until crisp on an even heat. Add the cream and garlic appetizer. Boil until the sauce starts to thicken. Add salt to taste. Add the pasta to boiling, salted water and cook until al dente. Leave the pasta to drain in a colander. Then pour into the warm sauce in the pan. Mix well and sprinkle with finely grated parmesan. Finally, season the dish with freshly ground pepper and truffle oil and  garnish with parsley.</description>
+		<time>45 min</time>
+		<persons>4</persons>
+		<ingredients>
+			<item>1 bag of Nicolas Vah&#233; Pasta / mushroom</item>
+			<item>250 g mushrooms</item>
+			<item>120 g bacon</item>
+			<item>2 tsp Nicolas Vah&#233; Appetizer / pure garlic</item>
+			<item>30 cl whipping cream </item>
+			<item>100 g grated parmesan</item>
+			<item>4 tbsp Nicolas Vah&#233; Truffle oil </item>
+			<item>Nicolas Vah&#233; Salt og Pepper / Everyday Mix</item>
+			<item>Parsley </item>
+		</ingredients>
+		<nvproducts>
+			<item>
+				<productnumber>Nv0802</productnumber>
+				<productdescription>Appetizer med Hvidl&#248;g</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nv0802.jpg</imageurl>
+			</item>
+			<item>
+				<productnumber>Nv1004</productnumber>
+				<productdescription>Fransk Havsalt</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nv1004.jpg</imageurl>
+			</item>
+			<item>
+				<productnumber>Nv1005</productnumber>
+				<productdescription>Sort Peber</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nv1005.jpg</imageurl>
+			</item>
+			<item>
+				<productnumber>Nvlb02</productnumber>
+				<productdescription>Tagliatelle med Karl Johan Svampe</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nvlb02.jpg</imageurl>
+			</item>
+			<item>
+				<productnumber>Nvlp003</productnumber>
+				<productdescription>Jomfru Olivenolie med Hvid Tr&#248;ffel</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nvlp003.jpg</imageurl>
+			</item>
+		</nvproducts>
+		<recipesurl>http://nicolasvahe.com/--/pasta/5</recipesurl>
+	</recipe>
+
+	<recipe id="6">
+		<category>Risretter</category>
+		<title>RISOTTO CROQUANT</title>
+		<smallimageurl>http://www.nicolasvahe.dk/resimgs/320PX/aw13_krokant.jpg</smallimageurl>
+		<bigimageurl>http://www.nicolasvahe.dk/resimgs/960PX/aw13_krokant.jpg</bigimageurl>
+		<description>Prepare the risotto by following the instructions on the bag. Leave to cool.  Fry the onion and ham on a hot pan with some olive oil until golden. Add the diced mozzarella, fried onion and ham to the cold risotto and season  with salt and pepper. Then roll the risotto into small, round balls and bread them by coating them in whipped whole eggs, flour and breadcrumbs. Deep-fry the balls in oil at 180 C until golden. This takes approx. 3-4 minutes. Serve on fris&#233;e lettuce seasoned with walnut oil and truffle glaze.</description>
+		<time>60 min</time>
+		<persons>6</persons>
+		<ingredients>
+			<item>1 bag Nicolas Vah&#233; Risotto / mushroom</item>
+			<item>100 g diced Parma ham</item>
+			<item>100 g fresh, diced mozzarella</item>
+			<item>50 g finely chopped onion</item>
+			<item>2 eggs</item>
+			<item>200 g breadcrumbs</item>
+			<item>100 g flour</item>
+			<item>Nicolas Vah&#233; Extra virgin olive oil </item>
+			<item>Salt and pepper </item>
+			<item>Frisee salad</item>
+			<item>Nicolas Vah&#233; Walnut oil</item>
+			<item>Nicolas Vah&#233; Glaze / truffle</item>
+		</ingredients>
+		<nvproducts>
+			<item>
+				<productnumber>Nv1004</productnumber>
+				<productdescription>Fransk Havsalt</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nv1004.jpg</imageurl>
+			</item>
+			<item>
+				<productnumber>Nv1005</productnumber>
+				<productdescription>Sort Peber</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nv1005.jpg</imageurl>
+			</item>
+			<item>
+				<productnumber>Nval060</productnumber>
+				<productdescription>Glaze med Tr&#248;ffel</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nval060.jpg</imageurl>
+			</item>
+			<item>
+				<productnumber>Nvfm02</productnumber>
+				<productdescription>Risotto med Svampe</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nvfm02.jpg</imageurl>
+			</item>
+			<item>
+				<productnumber>Nvlp005</productnumber>
+				<productdescription>Valn&#248;ddeolie</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nvlp005.jpg</imageurl>
+			</item>
+			<item>
+				<productnumber>Nvlp020</productnumber>
+				<productdescription>Ekstra Jomfru Olivenolie</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nvlp020.jpg</imageurl>
+			</item>
+		</nvproducts>
+		<recipesurl>http://nicolasvahe.com/--/rice/6</recipesurl>
+	</recipe>
+
+	<recipe id="7">
+		<category>Chutney</category>
+		<title>APRICOT AND DATE CHUTNEY WITH PISTACHIO OIL</title>
+		<smallimageurl>http://www.nicolasvahe.dk/resimgs/320PX/aw13_olie3.jpg</smallimageurl>
+		<bigimageurl>http://www.nicolasvahe.dk/resimgs/960PX/aw13_olie3.jpg</bigimageurl>
+		<description>Cut the apricots, dates, onion and garlic into small pieces. Pour sugar and honey into a pan and caramelise until golden. Carefully add balsamic vinegar and lemon juice and boil for 2-3 minutes with the vanilla bean, pepper and cinnamon stick. Add the apricots, dates, onion and garlic and simmer for approx. 30 minutes at low heat. Leave to cool and finally add pistachio oil. Store cool in a tightly closed container and serve within 8 days. Enjoy the chutney with e.g. cheese or pat&#233;.</description>
+		<time>60 min</time>
+		<persons>4</persons>
+		<ingredients>
+			<item>125 g apricots</item>
+			<item>125 g dates</item>
+			<item>1 onion</item>
+			<item>1 clove of garlic</item>
+			<item>50 g sugar</item>
+			<item>25 g Nicolas Vah&#233; Honey / lemon</item>
+			<item>1 dl Nicolas Vah&#233; White wine vinegar / Aceto Balsamico</item>
+			<item>Juice of 1 lemon</item>
+			<item>50 cl Nicolas Vah&#233; Pistachio oil</item>
+			<item>1 vanilla pod</item>
+			<item>1 Nicolas Vah&#233; Cinnamon stick</item>
+			<item>Freshly ground pepper</item>
+		</ingredients>
+		<nvproducts>
+			<item>
+				<productnumber>Nv1202</productnumber>
+				<productdescription>Hvid Balsamico</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nv1202.jpg</imageurl>
+			</item>
+			<item>
+				<productnumber>Nvap02</productnumber>
+				<productdescription>Honning med Citron</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nvap02.jpg</imageurl>
+			</item>
+			<item>
+				<productnumber>Nvkm07</productnumber>
+				<productdescription>Kanelst&#230;nger</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nvkm07.jpg</imageurl>
+			</item>
+			<item>
+				<productnumber>Nvlp002</productnumber>
+				<productdescription>Olie med Pistacie</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nvlp002.jpg</imageurl>
+			</item>
+		</nvproducts>
+		<recipesurl>http://nicolasvahe.com/--/chutney/7</recipesurl>
+	</recipe>
+
+	<recipe id="8">
+		<category>Gr&#248;ntsager</category>
+		<title>OVEN-BAKED ARTICHOKES</title>
+		<smallimageurl>http://www.nicolasvahe.dk/resimgs/320PX/aw13_olie1.jpg</smallimageurl>
+		<bigimageurl>http://www.nicolasvahe.dk/resimgs/960PX/aw13_olie1.jpg</bigimageurl>
+		<description>crub the artichokes and place them in an ovenproof dish. Add hazelnut oil and salt. Bake them in the oven at 180 C for 20-25 minutes, depending on the size of the artichokes. When ready, coat them in as much pesto as you want. Finish with grated parmesan.</description>
+		<time>45 min</time>
+		<persons>4</persons>
+		<ingredients>
+			<item>600 g fresh artichokes</item>
+			<item>Nicolas Vah&#233; Hazelnut oil</item>
+			<item>Nicolas Vah&#233; Salt / parmesan og basil</item>
+			<item>50 g freshly grated parmesan</item>
+			<item>Nicolas Vah&#233; Pesto / green olives og fennel or tomato og artichoke  </item>
+		</ingredients>
+		<nvproducts>
+			<item>
+				<productnumber>Nv0706</productnumber>
+				<productdescription>Pesto med Tomat og Artiskok</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nv0706.jpg</imageurl>
+			</item>
+			<item>
+				<productnumber>Nv0711             </productnumber>
+				<productdescription>Pesto med Gr&#248;nne Oliven og Fennikel</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nv0711.jpg</imageurl>
+			</item>
+			<item>
+				<productnumber>Nv1000</productnumber>
+				<productdescription>Salt med Parmesan Ost og Basilikum</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nv1000.jpg</imageurl>
+			</item>
+			<item>
+				<productnumber>Nvlp004</productnumber>
+				<productdescription>Hasseln&#248;ddeolie</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nvlp004.jpg</imageurl>
+			</item>
+		</nvproducts>
+		<recipesurl>http://nicolasvahe.com/--/vegetables/8</recipesurl>
+	</recipe>
+
+	<recipe id="12">
+		<category>Dessert</category>
+		<title>APPLE CRUMBLE WITH CR&#233;ME FRAICHE 
+AND WHITE PUNCH</title>
+		<smallimageurl>http://www.nicolasvahe.dk/resimgs/320PX/aw13_apple_crumble.jpg</smallimageurl>
+		<bigimageurl>http://www.nicolasvahe.dk/resimgs/960PX/aw13_apple_crumble.jpg</bigimageurl>
+		<description>Peel and dice the apples. Coat in pistachio curd and place in a tart mould with a diameter of approx. 25 cm. Grate the marzipan with a grater and sprinkle over the apples. Mix the oats, butter, sugar and vanilla from 1 vanilla pod in a food processor until the mixture has a crumb-like consistency. Top the apples with the mixture and bake the cake for approx. 30 minutes at 200 C. Serve the dish warm with cr&#232;me fraiche mixed with Nicolas Vah&#233; white punch extract.</description>
+		<time>60 min </time>
+		<persons>4</persons>
+		<ingredients>
+			<item>1/2 kg apples</item>
+			<item>1 tbsp Nicolas Vah&#233; Curd / pistachio</item>
+			<item>150 g marzipan</item>
+			<item>25 cl rolled oats </item>
+			<item>75 g soft butter</item>
+			<item>150 g sugar</item>
+			<item>1 vanilla pod  </item>
+			<item>5 cl Nicolas Vah&#233; White Punch</item>
+			<item>8 tbsp creme fraiche 38% </item>
+		</ingredients>
+		<nvproducts>
+			<item>
+				<productnumber>Nv0323</productnumber>
+				<productdescription>Marmelade med Pistaciecreme</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nv0323.jpg</imageurl>
+			</item>
+			<item>
+				<productnumber>Nv1090</productnumber>
+				<productdescription>Gl&#248;gg Ekstrakt, Hvid, 25 cl.</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nv1090.jpg</imageurl>
+			</item>
+		</nvproducts>
+		<recipesurl>http://nicolasvahe.com/--/dessert/12</recipesurl>
+	</recipe>
+
+	<recipe id="23">
+		<category>Br&#248;d</category>
+		<title>PESTO BREAD </title>
+		<smallimageurl>http://www.nicolasvahe.dk/resimgs/320PX/ss13_broed.jpg</smallimageurl>
+		<bigimageurl>http://www.nicolasvahe.dk/resimgs/960PX/ss13_broed.jpg</bigimageurl>
+		<description>Stir the tepid water, sugar, yeast, salt and pesto together in a bowl. Add the flour and knead the dough well for approx. 14 minutes in a mixer.  Allow the dough to rest in the bowl for 40 minutes at room temperature. Knead the dough by hand into a ball, and set aside in a dough rising basket sprinkled with plenty of flour. Allow to rise for 1 hour. Pre-heat the oven to 250 C. Place an ovenproof dish in the bottom of the oven. Carefully turn the dough onto a warm baking plate covered with  greaseproof paper. Put the bread in the oven, and pour approx. 1 dl of water into the ovenproof dish. Quickly close the oven to avoid the steam escaping. Bake at 250 C for 5 minutes. Then turn the oven down to 200 C. Bake the bread for approx. 30 minutes until a crisp crust appears.</description>
+		<time>150 min</time>
+		<persons>6</persons>
+		<ingredients>
+			<item>2 loaves</item>
+			<item></item>
+			<item>1 kg wheat flour</item>
+			<item>6 dl tepid water</item>
+			<item>40 g fresh yeast </item>
+			<item>25 g Nicolas Vah&#233; French Sea Salt</item>
+			<item>10 g sugar</item>
+			<item>Your favourite Nicolas Vah&#233; Pesto</item>
+		</ingredients>
+		<nvproducts>
+			<item>
+				<productnumber>Nv0711</productnumber>
+				<productdescription>Pesto med Gr&#248;nne Oliven og Fennikel</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nv0711.jpg</imageurl>
+			</item>
+			<item>
+				<productnumber>Nv1006</productnumber>
+				<productdescription>Fransk Salt i pose</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nv1006.jpg</imageurl>
+			</item>
+		</nvproducts>
+		<recipesurl>http://nicolasvahe.com/--/bread/23</recipesurl>
+	</recipe>
+
+	<recipe id="29">
+		<category>Br&#248;d</category>
+		<title>OLIVE AND FETA CHEESE CAKE</title>
+		<smallimageurl>http://www.nicolasvahe.dk/resimgs/320PX/ss13_olivenbrod.jpg</smallimageurl>
+		<bigimageurl>http://www.nicolasvahe.dk/resimgs/960PX/ss13_olivenbrod.jpg</bigimageurl>
+		<description>Pre-heat the oven to 180 C. Mix flour and baking powder in a bowl. Make a hollow in the middle and add the eggs and oil. Pour the cream into the flour mixture. Whisk everything thoroughly together. Dice the feta cheese and add cheese, pesto and a little salt and pepper to the  mixture. Mix well. Grease a bread tin with butter and pour in the dough. Serve the cake hot or cold. Bake the cake in the oven for approx. 40 minutes. Leave to cool. It tastes fantastic with different types of pesto. Serve with aperitifs or add a special twist to your dinner.</description>
+		<time>60 min</time>
+		<persons>6</persons>
+		<ingredients>
+			<item>200 g flour</item>
+			<item>1 tsp baking powder</item>
+			<item>3 eggs</item>
+			<item>1 dl Nicolas Vah&#233; Olive oil / garlic</item>
+			<item>1 dl whipped cream</item>
+			<item>200 g feta cheese </item>
+			<item>2 tbsp Nicolas Vah&#233; Pesto / olive og almond  </item>
+			<item>25 g soft butter</item>
+			<item>Nicolas Vah&#233; French Sea Salt</item>
+			<item>Nicolas Vah&#233; Pepper / The Mixed Blend</item>
+		</ingredients>
+		<nvproducts>
+			<item>
+				<productnumber>Nv0708</productnumber>
+				<productdescription>Pesto med Oliven og Mandel</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nv0708.jpg</imageurl>
+			</item>
+			<item>
+				<productnumber>Nv1004</productnumber>
+				<productdescription>Fransk Havsalt</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nv1004.jpg</imageurl>
+			</item>
+			<item>
+				<productnumber>Nv1005</productnumber>
+				<productdescription>Sort Peber</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nv1005.jpg</imageurl>
+			</item>
+			<item>
+				<productnumber>Nv1100</productnumber>
+				<productdescription>Olivenolie med Hvidl&#248;g</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nv1100.jpg</imageurl>
+			</item>
+		</nvproducts>
+		<recipesurl>http://nicolasvahe.com/--/bread/29</recipesurl>
+	</recipe>
+
+	<recipe id="30">
+		<category>Gr&#248;ntsager</category>
+		<title>FARCIES - SOUTHERN FRENCH VEGETABLE DISH</title>
+		<smallimageurl>http://www.nicolasvahe.dk/resimgs/320PX/ss13_fyldte grontsag.jpg</smallimageurl>
+		<bigimageurl>http://www.nicolasvahe.dk/resimgs/960PX/ss13_fyldte grontsag.jpg</bigimageurl>
+		<description>Cut the top off the tomatoes and scoop out the flesh. Set aside the flesh in a bowl. Sprinkle salt inside the tomatoes and place them on a paper towel to drip. Cut the peppers in halves and remove stalks and seeds. Mix the pork and veal with the onions, eggs, fresh herbs, garlic appetizer, salt and pepper. Add the flesh of the tomatoes and leave to rest in the refrigerator. Stuff the vegetables with the mince, and bake them in the oven at 180 C for approx. 30 minutes. Keep an eye on the vegetables as the exact cooking time depends on the size of the vegetables. Serve with warm bread, a green salad, and marinated meat on skewers.</description>
+		<time>60 min </time>
+		<persons>4</persons>
+		<ingredients>
+			<item>4 beef tomatoes</item>
+			<item>4 red peppers</item>
+			<item>4 yellow peppers</item>
+			<item>400 g minced veal </item>
+			<item>200 g minced pork</item>
+			<item>2 small chopped onions</item>
+			<item>2 fresh eggs</item>
+			<item>Fresh parsley and thyme</item>
+			<item>2 tsp Nicolas Vah&#233; Appetizer / pure garlic</item>
+			<item>Nicolas Vah&#233; Pepper / The Mixed Blend</item>
+			<item>Nicolas Vah&#233; Salt / parmesan og basil</item>
+			<item> Nicolas Vah&#233; Extra virgin olive oil</item>
+			<item></item>
+		</ingredients>
+		<nvproducts>
+			<item>
+				<productnumber>Nv0802</productnumber>
+				<productdescription>Appetizer med Hvidl&#248;g</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nv0802.jpg</imageurl>
+			</item>
+			<item>
+				<productnumber>Nv1000</productnumber>
+				<productdescription>Salt med Parmesan Ost og Basilikum</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nv1000.jpg</imageurl>
+			</item>
+			<item>
+				<productnumber>Nv1005</productnumber>
+				<productdescription>Sort Peber</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nv1005.jpg</imageurl>
+			</item>
+			<item>
+				<productnumber>Nvlp020</productnumber>
+				<productdescription>Ekstra Jomfru Olivenolie</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nvlp020.jpg</imageurl>
+			</item>
+		</nvproducts>
+		<recipesurl>http://nicolasvahe.com/--/vegetables/30</recipesurl>
+	</recipe>
+
+	<recipe id="36">
+		<category>Gr&#248;ntsager</category>
+		<title>TOMATO SNACKS</title>
+		<smallimageurl>http://www.nicolasvahe.dk/resimgs/320PX/NV.tomatsnack.jpg</smallimageurl>
+		<bigimageurl>http://www.nicolasvahe.dk/resimgs/960PX/NV.tomatsnack.jpg</bigimageurl>
+		<description>Cut out 10 circles from the puff pastry, using a glass or a round pastry cutter. Place them on a sheet of baking paper and spread with pesto. Place a cherry tomato on top and sprinkle with salt, pepper and olive oil. Bake at 220 C for about 10 minutes. Sprinkle with finely chopped thyme and rosemary and serve while warm.</description>
+		<time>15 min</time>
+		<persons>4</persons>
+		<ingredients>
+			<item>1 roll puff pastry</item>
+			<item>1 glass Nicolas Vah&#233; Pesto / pure tomato</item>
+			<item>10 large cherry tomatoes</item>
+			<item>Olive oil</item>
+			<item>Salt and pepper</item>
+			<item>Thyme</item>
+			<item>Rosemary</item>
+			<item></item>
+		</ingredients>
+		<nvproducts>
+			<item>
+				<productnumber>Nv0700</productnumber>
+				<productdescription>Pesto med Tomat</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nv0700.jpg</imageurl>
+			</item>
+		</nvproducts>
+		<recipesurl>http://nicolasvahe.com/--/vegetables/36</recipesurl>
+	</recipe>
+
+	<recipe id="44">
+		<category>Br&#248;d</category>
+		<title>BRUSCHETTA</title>
+		<smallimageurl>http://www.nicolasvahe.dk/resimgs/320PX/opskrifter.17.2.jpg</smallimageurl>
+		<bigimageurl>http://www.nicolasvahe.dk/resimgs/960PX/opskrifter.17.2.jpg</bigimageurl>
+		<description>Dissolve yeast and salt in the lukewarm water. Slowly work the flour into the liquid; use the dough hook on your hand mixer or knead the  dough by hand for about 5 min. Then leave the dough covered in a warm  place for 11/2 hours. Sprinkle flour on your worktop and roll out the dough into a square that measures 30x40 cm and which is about 2 cm thick. Spread pesto and sprinkle the Herbes de Provence over the dough. Drizzle the dough with Nicolas Vah&#233; Olive oil with garlic. Close the bread from the left and cover the right-hand side. Brush the  edges with water, and press the bread together at the sides using a fork. Finally, brush the bread with Nicolas Vah&#233; Olive oil and sprinkle with  Herbes de Provence. Make cuts at a slant every 2 cm, so that the filling  inside is visible. Bake the bread for about 30 min. at 180 C, or until the bread has a crisp crust.</description>
+		<time>120 min</time>
+		<persons>4</persons>
+		<ingredients>
+			<item>3.5 dl water</item>
+			<item>40 g fresh yeast</item>
+			<item>650 g plain flour</item>
+			<item>1 tsp coarse salt</item>
+			<item>150 g Nicolas Vah&#233; Pesto / black olive og basil </item>
+			<item>1 tsp Herbes de Provence </item>
+			<item>6 tbsp Nicolas Vah&#233; Oil / garlic</item>
+			<item></item>
+			<item></item>
+		</ingredients>
+		<nvproducts>
+			<item>
+				<productnumber>Nv0705</productnumber>
+				<productdescription>Pesto med Sorte Oliven og Basilikum</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nv0705.jpg</imageurl>
+			</item>
+			<item>
+				<productnumber>Nv1100</productnumber>
+				<productdescription>Olivenolie med Hvidl&#248;g</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nv1100.jpg</imageurl>
+			</item>
+		</nvproducts>
+		<recipesurl>http://nicolasvahe.com/--/bread/44</recipesurl>
+	</recipe>
+
+	<recipe id="48">
+		<category>Saucer</category>
+		<title>KETCHUP A LA NICOLAS (250 ml)</title>
+		<smallimageurl>http://www.nicolasvahe.dk/resimgs/320PX/opskrifter.9.2.jpg</smallimageurl>
+		<bigimageurl>http://www.nicolasvahe.dk/resimgs/960PX/opskrifter.9.2.jpg</bigimageurl>
+		<description>Cut tomatoes, onion and garlic into smaller pieces. Let them simmer in a  saucepan at low heat for 30 min. Blend the mixture until it is smooth, and add  the two types of vinegar. Put the saucepan back on the heat and allow the  mixture to simmer until it has reduced to half the amount (about 45 min. at  low heat). Stir the mixture until it is even, and then strain it. Add salt, pepper, sugar  and lemon juice. Reduce the mixture for the last time to half the amount over  a low heat, until it gains a nice, smooth consistency. Pour the homemade  ketchup into a bottle or a jar that can be closed tightly, and leave it in  the refrigerator. The ketchup will be ready for use after 2-3 days and will keep for about two weeks in the refrigerator.</description>
+		<time>120 min</time>
+		<persons>4</persons>
+		<ingredients>
+			<item>1 kg tomatoes</item>
+			<item>1 onion</item>
+			<item>3 garlic cloves</item>
+			<item>5 dl Nicolas Vah&#233; Red wine vinegar / raspberry</item>
+			<item>2.5 dl Nicolas Vah&#233; Red wine vinegar / Aceto balsamico di Modena</item>
+			<item>50 g sugar</item>
+			<item>Salt and pepper</item>
+			<item>1 tsp lemon juice</item>
+		</ingredients>
+		<nvproducts>
+			<item>
+				<productnumber>Nv1004</productnumber>
+				<productdescription>Fransk Havsalt</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nv1004.jpg</imageurl>
+			</item>
+			<item>
+				<productnumber>Nv1005</productnumber>
+				<productdescription>Sort Peber</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nv1005.jpg</imageurl>
+			</item>
+			<item>
+				<productnumber>Nv1200</productnumber>
+				<productdescription>R&#248;dvinseddike med Hindb&#230;r</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nv1200.jpg</imageurl>
+			</item>
+			<item>
+				<productnumber>Nv1201</productnumber>
+				<productdescription>R&#248;dvinseddike - Aceto Balsamico di Modena</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nv1201.jpg</imageurl>
+			</item>
+		</nvproducts>
+		<recipesurl>http://nicolasvahe.com/--//48</recipesurl>
+	</recipe>
+
+	<recipe id="57">
+		<category>Gris</category>
+		<title>BAKED GOATS CHEESE IN BACON</title>
+		<smallimageurl>http://www.nicolasvahe.dk/resimgs/320PX/NV.opskrift.7.2.jpg</smallimageurl>
+		<bigimageurl>http://www.nicolasvahe.dk/resimgs/960PX/NV.opskrift.7.2.jpg</bigimageurl>
+		<description>Cut the cheese into pieces of around 50 g each and roll a piece of bacon around each piece of cheese. Finely dice the apple. Make a dressing of balsamico, mustard, olive oil and orange juice and add the diced apple. Place the salad leaves in the dressing and toss.Fry the cheese in a hot  pan until the bacon is crisp. Serve with salad.</description>
+		<time>30 min</time>
+		<persons>4</persons>
+		<ingredients>
+			<item>400 g firm goats cheese</item>
+			<item>8 slices of bacon</item>
+			<item>1 apple</item>
+			<item>300 g mixed salad leaves</item>
+			<item>5 tsp Nicolas Vah&#233; Red wine vinegar / Aceto balsamico de Modena</item>
+			<item>2 tsp Nicolas Vah&#233; Mustard / raspberry og ginger, 190 g</item>
+			<item>3 tbsp orange juice</item>
+			<item>6 tbsp Nicolas Vah&#233; Olive oil / basil </item>
+		</ingredients>
+		<nvproducts>
+			<item>
+				<productnumber>Nv1050</productnumber>
+				<productdescription>Sennep med Hindb&#230;r og Ingef&#230;r</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nv1050.jpg</imageurl>
+			</item>
+			<item>
+				<productnumber>Nv1104</productnumber>
+				<productdescription>Olivenolie med Basilikum</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nv1104.jpg</imageurl>
+			</item>
+			<item>
+				<productnumber>Nv1201</productnumber>
+				<productdescription>R&#248;dvinseddike - Aceto Balsamico di Modena</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nv1201.jpg</imageurl>
+			</item>
+		</nvproducts>
+		<recipesurl>http://nicolasvahe.com/--//57</recipesurl>
+	</recipe>
+
+	<recipe id="58">
+		<category>Marinade</category>
+		<title>BAKED POTATOES WITH PESTO AND HERBE</title>
+		<smallimageurl>http://www.nicolasvahe.dk/resimgs/320PX/NV.opskrift.4.2.jpg</smallimageurl>
+		<bigimageurl>http://www.nicolasvahe.dk/resimgs/960PX/NV.opskrift.4.2.jpg</bigimageurl>
+		<description>Finely chop garlic and herbs. Place all the ingredients for the marinade in a bowl and mix using your hands. Take a small piece of baking paper, place two potatoes in the middle and pour a tablespoon of the marinade over. Then gather  the paper together to form a bag and tie with a small piece of meat string.  Create three more packages. Garnish with sprigs of rosemary or thyme. Bake in  the oven for 8 min. at 180 C or 8 min. under the grill.</description>
+		<time>45 min</time>
+		<persons>2</persons>
+		<ingredients>
+			<item>8 small, cooked potatoes </item>
+			<item>Marinade: </item>
+			<item>100 g Nicolas Vah&#233; Pesto / black olives og basil </item>
+			<item>3 spsk Nicolas Vah&#233; Olive oil / lemon</item>
+			<item>2 cloves garlic </item>
+			<item>Sprigs of thyme and rosemary </item>
+			<item>Salt and pepper</item>
+		</ingredients>
+		<nvproducts>
+			<item>
+				<productnumber>Nv0705</productnumber>
+				<productdescription>Pesto med Sorte Oliven og Basilikum</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nv0705.jpg</imageurl>
+			</item>
+			<item>
+				<productnumber>Nv1004</productnumber>
+				<productdescription>Fransk Havsalt</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nv1004.jpg</imageurl>
+			</item>
+			<item>
+				<productnumber>Nv1005</productnumber>
+				<productdescription>Sort Peber</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nv1005.jpg</imageurl>
+			</item>
+			<item>
+				<productnumber>Nv1105</productnumber>
+				<productdescription>Olivenolie med Lemon</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nv1105.jpg</imageurl>
+			</item>
+			<item>
+				<productnumber>Nvkm03</productnumber>
+				<productdescription>Rosmarin</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nvkm03.jpg</imageurl>
+			</item>
+			<item>
+				<productnumber>Nvkm06</productnumber>
+				<productdescription>Timian</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nvkm06.jpg</imageurl>
+			</item>
+		</nvproducts>
+		<recipesurl>http://nicolasvahe.com/--/marinade/58</recipesurl>
+	</recipe>
+
+	<recipe id="59">
+		<category>Gr&#248;ntsager</category>
+		<title>BRUSCETTA A LA NICOLAS</title>
+		<smallimageurl>http://www.nicolasvahe.dk/resimgs/320PX/NV.opskrift.5.2.jpg</smallimageurl>
+		<bigimageurl>http://www.nicolasvahe.dk/resimgs/960PX/NV.opskrift.5.2.jpg</bigimageurl>
+		<description>CRUMBLE THE FETA CHEESE USING A FORK. ADD THE QUARK AND SEASON WITH SALT AND PEPPER. DRIZZLE THE SLICES OF BREAD WITH NICOLAS VAH&#233; OLIVE OIL AND SPRINKLE WITH FINELY-CHOPPED GARLIC. TOAST THE BREAD IN THE MIDDLE OF THE OVEN FOR 5 MIN. AT 220 C UNTIL GOLDEN AND CRISP ON TOP. SPREAD A LAYER OF PESTO ON THE BREAD AND TOP OFF WITH THE FETA MIXTURE. ADD THE CHERRY TOMATOES AND SLICED LEEKS AND BAKE AT 220 C FOR 8 MIN. SERVE RIGHT AWAY.</description>
+		<time>30 min</time>
+		<persons>4</persons>
+		<ingredients>
+			<item>4 slices of ciabatta bread</item>
+			<item>150 g feta cheese</item>
+			<item>150 g quark</item>
+			<item>3 finely chopped garlic cloves</item>
+			<item>3 tbsp Niclas Vah&#233; Extra virgin olive oil</item>
+			<item>100 g Nicolas Vah&#233; Pesto / black olives og basil</item>
+			<item>250 g cherry tomatoes cut in half</item>
+			<item>1 finely chopped leek</item>
+			<item>Salt and pepper</item>
+		</ingredients>
+		<nvproducts>
+			<item>
+				<productnumber>Nv0705</productnumber>
+				<productdescription>Pesto med Sorte Oliven og Basilikum</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nv0705.jpg</imageurl>
+			</item>
+			<item>
+				<productnumber>Nvlp020</productnumber>
+				<productdescription>Ekstra Jomfru Olivenolie</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nvlp020.jpg</imageurl>
+			</item>
+		</nvproducts>
+		<recipesurl>http://nicolasvahe.com/--/vegetables/59</recipesurl>
+	</recipe>
+
+	<recipe id="62">
+		<category>Risretter</category>
+		<title>RISOTTO WITH MUSHROOMS</title>
+		<smallimageurl>http://www.nicolasvahe.dk/resimgs/320PX/NV.opskrift.3.2.jpg</smallimageurl>
+		<bigimageurl>http://www.nicolasvahe.dk/resimgs/960PX/NV.opskrift.3.2.jpg</bigimageurl>
+		<description>Bring the water to the boil and add the contents of the bag. Leave to simmer at medium heat with no lid for around 15 minutes until the water has been absorbed. Add olive oil, cream and grated parmesan while stirring. Season with salt and pepper.</description>
+		<time>30 min</time>
+		<persons>4</persons>
+		<ingredients>
+			<item>1 bag Nicolas Vah&#233; Risotto / mushroom</item>
+			<item>1100 ml water</item>
+			<item>2 tbsp olive oil</item>
+			<item>100 ml cream</item>
+			<item>100 g parmesan</item>
+			<item>Salt and pepper </item>
+		</ingredients>
+		<nvproducts>
+			<item>
+				<productnumber>Nvfm02</productnumber>
+				<productdescription>Risotto med Svampe</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nvfm02.jpg</imageurl>
+			</item>
+		</nvproducts>
+		<recipesurl>http://nicolasvahe.com/--/rice/62</recipesurl>
+	</recipe>
+
+	<recipe id="63">
+		<category>Pasta</category>
+		<title>FRESH PASTA WITH RED PEPPER PESTO</title>
+		<smallimageurl>http://www.nicolasvahe.dk/resimgs/320PX/NV.opskrift.13.2.jpg</smallimageurl>
+		<bigimageurl>http://www.nicolasvahe.dk/resimgs/960PX/NV.opskrift.13.2.jpg</bigimageurl>
+		<description>Cook the fresh pasta in a large pan of boiling water until it is al dente. Drain the pasta and place it in a large bowl. Stir in the pesto and season with salt and pepper. Garnish with fresh basil leaves and add parmesan cheese to taste. Serve the pasta with freshly baked bread and/or grilled chicken or fish.</description>
+		<time>30 min</time>
+		<persons>2</persons>
+		<ingredients>
+			<item>500 g fresh pasta</item>
+			<item>3 tbsp Nicolas Vah&#233; Pesto / pure red pepper</item>
+			<item>Salt and pepper</item>
+			<item>Fresh basil</item>
+			<item>Grated parmesan </item>
+		</ingredients>
+		<nvproducts>
+			<item>
+				<productnumber>Nv0704</productnumber>
+				<productdescription>Pesto med R&#248;d peber</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nv0704.jpg</imageurl>
+			</item>
+			<item>
+				<productnumber>Nv1004</productnumber>
+				<productdescription>Fransk Havsalt</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nv1004.jpg</imageurl>
+			</item>
+			<item>
+				<productnumber>Nv1005</productnumber>
+				<productdescription>Sort Peber</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nv1005.jpg</imageurl>
+			</item>
+		</nvproducts>
+		<recipesurl>http://nicolasvahe.com/--/pasta/63</recipesurl>
+	</recipe>
+
+	<recipe id="64">
+		<category>Salater</category>
+		<title>MELON SALAD WITH SESAME SEEDS AND CORIANDER</title>
+		<smallimageurl>http://www.nicolasvahe.dk/resimgs/320PX/NV.opskrift.8.2.jpg</smallimageurl>
+		<bigimageurl>http://www.nicolasvahe.dk/resimgs/960PX/NV.opskrift.8.2.jpg</bigimageurl>
+		<description>Dice the melons, chop the coriander and mix it in a bowl. Add the cane sugar, red wine vinegar, sesame seeds and pepper and toss with your hands. Place in the fridge for 15 min. before serving. Garnish with raspberries.</description>
+		<time>30 min</time>
+		<persons>4</persons>
+		<ingredients>
+			<item>1 cantaloupe melon</item>
+			<item>1 honeydew melon</item>
+			<item>1/2 watermelon</item>
+			<item>150 g raspberries</item>
+			<item>1 bunch of coriander</item>
+			<item>2 tbsp white sesame seeds</item>
+			<item>2 tbsp black sesame seeds</item>
+			<item>1 tbsp Nicolas Vah&#233; Red wine vinegar / raspberry</item>
+			<item>1 tsp cane sugar</item>
+			<item>Pepper</item>
+		</ingredients>
+		<nvproducts>
+			<item>
+				<productnumber>Nv1005</productnumber>
+				<productdescription>Sort Peber</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nv1005.jpg</imageurl>
+			</item>
+			<item>
+				<productnumber>Nv1200</productnumber>
+				<productdescription>R&#248;dvinseddike med Hindb&#230;r</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nv1200.jpg</imageurl>
+			</item>
+		</nvproducts>
+		<recipesurl>http://nicolasvahe.com/--/salads/64</recipesurl>
+	</recipe>
+
+	<recipe id="67">
+		<category>Br&#248;d</category>
+		<title>FOUGASSE BREAD</title>
+		<smallimageurl>http://www.nicolasvahe.dk/resimgs/320PX/NV.opskrift.14.2.jpg</smallimageurl>
+		<bigimageurl>http://www.nicolasvahe.dk/resimgs/960PX/NV.opskrift.14.2.jpg</bigimageurl>
+		<description>Mix the yeast and salt into the lukewarm water and slowly add the flour.  Either use a mixer or knead the dough by hand for around 5 minutes. Allow the dough to rest in a warm location for around 11/2 hours. Dust some flour over your work surface and roll the dough out to a size of 30x40 cm - leaving it a few centimetres thick. Cover the dough with the  pesto and herbes de Provence. Drizzle with the olive oil and seal the loaf by lifting the left side over to cover the right side. Brush the edges with  a little water and crim Cut 2 cm wide grooves at an angle so that you can see the olive filling.  Bake for 30 minutes at 180 C until the loaf is crisp on top. You can also use artichokes, sun-dried tomatoes or another pesto from  Nicolas Vah&#233;.</description>
+		<time>120 min</time>
+		<persons>4</persons>
+		<ingredients>
+			<item>350 ml lukewarm water</item>
+			<item>40 g yeast</item>
+			<item>650 g plain flour</item>
+			<item>1 tsp coarse salt</item>
+			<item>150 g Nicolas Vah&#233; Pesto / black olives og basil </item>
+			<item>1 tsp herbes de Provence</item>
+			<item>6 tbsp Nicolas Vah&#233; Extra virgin olive oil  </item>
+		</ingredients>
+		<nvproducts>
+			<item>
+				<productnumber>Nv0705</productnumber>
+				<productdescription>Pesto med Sorte Oliven og Basilikum</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nv0705.jpg</imageurl>
+			</item>
+			<item>
+				<productnumber>Nvlp020</productnumber>
+				<productdescription>Ekstra Jomfru Olivenolie</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nvlp020.jpg</imageurl>
+			</item>
+		</nvproducts>
+		<recipesurl>http://nicolasvahe.com/--/bread/67</recipesurl>
+	</recipe>
+
+	<recipe id="75">
+		<category>Salater</category>
+		<title>Winter salad</title>
+		<smallimageurl>http://www.nicolasvahe.dk/resimgs/320PX/75.jpg</smallimageurl>
+		<bigimageurl>http://www.nicolasvahe.dk/resimgs/960PX/75.jpg</bigimageurl>
+		<description>Cut off the branches of the beetroots. Keep the leaves and put them in iced  water to get them nice and crisp so they may later be used as the salad.  Cook the beetroots in the oven at 160 C for 90 minutes. Pinch them with a fork to check if they are cooked. When ready the beetroot should fall off  the fork.  Peel the beetroots; cut them into 2 by 2 cm cubes and place in a bowl. When  they are still warm add 2 tablespoons of raspberry vinaigrette and the pistachio oil. Let the beetroots cool down to room temperature before finishing the salad.  Mix the beetroot leaves with the beetroots and arrange on two plates.  Sprinkle with hazelnuts, pomegranate seeds, raspberries and grapes. Break  the feta cheese over the salad with your hands. Use the last tablespoon of  raspberry vinaigrette to sprinkle around the salad.</description>
+		<time>120 min</time>
+		<persons>2</persons>
+		<ingredients>
+			<item>5 fresh beetroots with branches and leaves                                                        A</item>
+			<item>A handful of green grapes cut in halves</item>
+			<item>Seeds from half a pomegranate</item>
+			<item>20 hazelnuts cut in halves </item>
+			<item>50 g goat or feta cheese</item>
+			<item>A handful of raspberries</item>
+			<item>3 tbsp Nicolas Vah&#233; Vinaigrette / raspberry</item>
+			<item>1 tbsp Nicolas Vah&#233; Pistachio oil</item>
+			<item>Salt and pepper</item>
+		</ingredients>
+		<nvproducts>
+			<item>
+				<productnumber>Nv1007</productnumber>
+				<productdescription>Salt og Peber - Everyday mix</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nv1007.jpg</imageurl>
+			</item>
+			<item>
+				<productnumber>Nv1255</productnumber>
+				<productdescription>Vinaigrette med Hindb&#230;r</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nv1255.jpg</imageurl>
+			</item>
+			<item>
+				<productnumber>Nvlp002</productnumber>
+				<productdescription>Olie med Pistacie</productdescription>
+				<imageurl>http://appbilleder.housedoctor.dk/app/Nvlp002.jpg</imageurl>
+			</item>
+		</nvproducts>
+		<recipesurl>http://nicolasvahe.com/--/salads/75</recipesurl>
+	</recipe>
+
+</data>
