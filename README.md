@@ -9,7 +9,7 @@ Put this path "${SDKROOT}/usr/include/libxml2" under "Header Search Path" in sec
 	result = [xmlParser parseXml:xmlData nodeName:@"books"];
 	
 
-##How result may look
+##How the result may look like
 The XML element with subelements is usually represented by a dictionary. For example, this element 
 
 	<book>
