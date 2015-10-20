@@ -349,7 +349,7 @@ Get the result of parsing on the output of execution of XPath expression. Return
 
  
 #####`-(id) parseXml:(NSData*)xmlData nodeName:(NSString*)nodeName;`
-Parse only elements with name "nodeName". Internally [parseXml:xmlData nodeName:nodeName] is performed as [parseXml:xmlData xpathExpression:@"//nodeName"];
+Parse only elements with name "nodeName". Internally `[parseXml:xmlData nodeName:nodeName]` is performed as `[parseXml:xmlData xpathExpression:@"//nodeName"]`.
 
  
 #####`-(id) parseXml:(NSData*)xmlData;`
